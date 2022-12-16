@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=rooti
+Exec=rooti
+Icon=com.github.imsi32.Rooti
+Terminal=false
+Type=Application
+Categories=GTK;
+StartupNotify=true
