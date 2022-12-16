@@ -1,6 +1,0 @@
-data/com.github.imsi32.Rooti.desktop.in
-data/com.github.imsi32.Rooti.appdata.xml.in
-data/com.github.imsi32.Rooti.gschema.xml
-src/main.py
-src/window.py
-src/window.ui
