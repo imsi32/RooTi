@@ -54,7 +54,7 @@ class RootiApplication(Adw.Application):
                                 application_name='rooti',
                                 application_icon='com.github.imsi32.RooTi',
                                 developer_name='imsi32',
-                                version='0.1.0',
+                                version='0.1.1',
                                 developers=['imsi32'],
                                 copyright='© 2022 imsi32')
         about.present()
