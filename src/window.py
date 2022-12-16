@@ -26,5 +26,45 @@ class RootiWindow(Adw.ApplicationWindow):
 
     label = Gtk.Template.Child()
 
+    rd_gokturk = Gtk.Template.Child()
+    rd_phonologic = Gtk.Template.Child()
+    rd_modern = Gtk.Template.Child()
+
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
+
+        self.rd_gokturk.connect("toggled", self.on_gokturk)
+        self.rd_phonologic.connect("toggled", self.on_phonologic)
+        self.rd_modern.connect("toggled", self.on_modern)
+
+        self.rd_gokturk.set_active(True)
+
+    def on_gokturk(self, button):
+        """Sets the visibility to only Gokturk form."""
+        self.visible_gokturk(True)
+        self.visible_phonologic(False)
+        self.visible_modern(False)
+
+    def on_phonologic(self, button):
+        """Sets the visibility to only Phonologic form."""
+        self.visible_gokturk(False)
+        self.visible_phonologic(True)
+        self.visible_modern(False)
+
+    def on_modern(self, button):
+        """Sets the visibility to only Modern form."""
+        self.visible_gokturk(False)
+        self.visible_phonologic(False)
+        self.visible_modern(True)
+
+    def visible_gokturk(self, boolean):
+        """Sets gokturk widgets visibility to the given *boolean*."""
+        pass
+
+    def visible_phonologic(self, boolean):
+        """Sets phonologic widgets visibility to the given *boolean*."""
+        pass
+
+    def visible_modern(self, boolean):
+        """Sets modern widgets visibility to the given *boolean*."""
+        pass
