@@ -8,8 +8,27 @@
     <child>
       <object class="GtkBox">
         <property name="orientation">vertical</property>
+
         <child>
-          <object class="GtkHeaderBar" id="header_bar">
+	  <object class="AdwHeaderBar" id="header_bar">
+            <child type="start">
+              <object class="GtkBox" id="radio_box">
+                <child>
+                  <object class="GtkCheckButton" id="rd_gokturk"></object>
+                </child>
+                <child>
+                  <object class="GtkCheckButton" id="rd_phonologic">
+                    <property name="group">rd_gokturk</property>
+                  </object>
+                </child>
+                <child>
+                  <object class="GtkCheckButton" id="rd_modern">
+                    <property name="group">rd_gokturk</property>
+                  </object>
+                </child>
+              </object>
+            </child>
+
             <child type="end">
               <object class="GtkMenuButton">
                 <property name="icon-name">open-menu-symbolic</property>
@@ -18,6 +37,7 @@
             </child>
           </object>
         </child>
+
         <child>
           <object class="GtkLabel" id="label">
             <property name="label">Hello, World!</property>
