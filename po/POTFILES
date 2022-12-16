@@ -1,0 +1,6 @@
+data/com.github.imsi32.RooTi.desktop.in
+data/com.github.imsi32.RooTi.appdata.xml.in
+data/com.github.imsi32.RooTi.gschema.xml
+src/main.py
+src/window.py
+src/window.ui
