@@ -17,4 +17,4 @@ RooTi
 
 :doc:`../doc/eng/README`
 
-`link to table in another page <README.rst/doc/eng/README.rst#my-reference-label>`_
+`link to table in another page </doc/eng/README.rst#my-reference-label>`_
