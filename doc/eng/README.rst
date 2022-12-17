@@ -1,3 +1,3 @@
-.. _my-reference-label:
+.. _read-me:
 README.rst
 ==========
