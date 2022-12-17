@@ -15,4 +15,4 @@ RooTi
 | Türkçe     | Hazır Değil            | Hazır Değil         |
 +------------+-----------------+----------------------------+
 
-:doc:`./doc/eng/README`
+:doc:`../doc/eng/README`
