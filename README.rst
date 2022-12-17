@@ -15,4 +15,4 @@ RooTi
 | Türkçe     | Hazır Değil            | Hazır Değil         |
 +------------+-----------------+----------------------------+
 
-:ref:`Documentation/process/changes.rst <_read-me>`
+:doc:`./doc/eng/README`
