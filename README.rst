@@ -14,5 +14,5 @@ RooTi
    :widths: auto
    :align: center
 
-   "English",           "`README.rst </doc/eng/README.rst#read-me>`_",         "Not Ready"
-   "Türkçe",            "`OKUBENİ.rst </doc/tur/OKUBENİ.rst#oku-beni>`_",      "Hazır Değil"
+   "English",           "`README.rst </doc/eng/README.rst#read-me>`_",         "`main.rst </doc/eng/main.rst#main>`_"
+   "Türkçe",            "`OKUBENİ.rst </doc/tur/OKUBENİ.rst#oku-beni>`_",      "`ana.rst </doc/tur/ana.rst#ana>`_"
