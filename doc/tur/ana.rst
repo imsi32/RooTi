@@ -3,4 +3,4 @@
 ana.rst
 ==========
 
-0. `OKUBENİ.rst <OKUBENi.rst#oku-beni>`_
+0. `tur.rst <tur.rst#tur>`_
