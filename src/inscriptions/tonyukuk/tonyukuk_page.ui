@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <requires lib="gtk" version="4.0"/>
+  <requires lib="Adw" version="1.0"/>
+  <template class="PageTonyukuk" parent="GtkBox">
+    <property name="orientation">vertical</property>
+    <child>
+      <object class="GtkLabel" id="pagebox1">
+        <property name="label">Tonyukuk Inscriptions</property>
+      </object>
+    </child>
+  </template>
+</interface>

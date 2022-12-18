@@ -8,9 +8,14 @@
     <child>
       <object class="GtkBox">
         <property name="orientation">vertical</property>
-
         <child>
-	  <object class="AdwHeaderBar" id="header_bar">
+          <object class="AdwHeaderBar" id="header_bar">
+            <property name="centering-policy">strict</property>
+            <property name="title-widget">
+              <object class="AdwViewSwitcherTitle" id="view_switcher_title">
+                <property name="stack">inscriptions_stack</property>
+              </object>
+            </property>
             <child type="start">
               <object class="GtkBox" id="radio_box">
                 <child>
@@ -28,7 +33,6 @@
                 </child>
               </object>
             </child>
-
             <child type="end">
               <object class="GtkMenuButton">
                 <property name="icon-name">open-menu-symbolic</property>
@@ -37,14 +41,43 @@
             </child>
           </object>
         </child>
-
         <child>
-          <object class="GtkLabel" id="label">
-            <property name="label">Hello, World!</property>
-            <property name="vexpand">true</property>
-            <style>
-              <class name="title-1"/>
-            </style>
+          <object class="AdwViewStack" id="inscriptions_stack">
+            <child>
+              <object class="AdwViewStackPage" id="bilge_khagan_inscription">
+                <property name="name">bilge_khagan</property>
+                <property name="title" translatable="true">Bilge Khagan</property>
+                <property name="child">
+                  <object class="PageBilgeKhagan" id="bilge_khagan_page"></object>
+               </property>
+              </object>
+            </child>
+            <child>
+              <object class="AdwViewStackPage" id="kul_tigin_inscription">
+                <property name="name">kul_tigin</property>
+                <property name="title" translatable="true">Kul Tigin</property>
+                <property name="child">
+                  <object class="PageKulTigin" id="kul_tigin_page"></object>
+                </property>
+              </object>
+            </child>
+            <child>
+              <object class="AdwViewStackPage" id="tonyukuk_inscription">
+                <property name="name">tonyukuk</property>
+                <property name="title" translatable="true">Tonyukuk</property>
+                <property name="child">
+                  <object class="PageTonyukuk" id="tonyukuk_page"></object>
+                </property>
+              </object>
+            </child>
+          </object>
+        </child>
+        <child>
+          <object class="AdwViewSwitcherBar">
+            <property name="stack">inscriptions_stack</property>
+            <binding name="reveal">
+              <lookup name="title-visible">view_switcher_title</lookup>
+            </binding>
           </object>
         </child>
       </object>

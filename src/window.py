@@ -20,15 +20,18 @@
 from gi.repository import Adw
 from gi.repository import Gtk
 
+from .inscriptions.bilge_khagan.bilge_khagan_page import PageBilgeKhagan
+from .inscriptions.kul_tigin.kul_tigin_page import PageKulTigin
+from .inscriptions.tonyukuk.tonyukuk_page import PageTonyukuk
+
+
 @Gtk.Template(resource_path='/com/github/imsi32/RooTi/window.ui')
 class RootiWindow(Adw.ApplicationWindow):
     __gtype_name__ = 'RootiWindow'
 
-    label = Gtk.Template.Child()
-
-    rd_gokturk = Gtk.Template.Child()
-    rd_phonologic = Gtk.Template.Child()
-    rd_modern = Gtk.Template.Child()
+    rd_gokturk = Gtk.Template.Child("rd_gokturk")
+    rd_phonologic = Gtk.Template.Child("rd_phonologic")
+    rd_modern = Gtk.Template.Child("rd_modern")
 
     def __init__(self, **kwargs):
         super().__init__(**kwargs)

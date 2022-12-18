@@ -3,5 +3,8 @@
   <gresource prefix="/com/github/imsi32/RooTi">
     <file preprocess="xml-stripblanks">window.ui</file>
     <file preprocess="xml-stripblanks">gtk/help-overlay.ui</file>
+    <file preprocess="xml-stripblanks">inscriptions/bilge_khagan/bilge_khagan_page.ui</file>
+    <file preprocess="xml-stripblanks">inscriptions/kul_tigin/kul_tigin_page.ui</file>
+    <file preprocess="xml-stripblanks">inscriptions/tonyukuk/tonyukuk_page.ui</file>
   </gresource>
 </gresources>
