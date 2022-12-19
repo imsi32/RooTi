@@ -29,45 +29,30 @@ from .inscriptions.tonyukuk.tonyukuk_page import PageTonyukuk
 class RootiWindow(Adw.ApplicationWindow):
     __gtype_name__ = 'RootiWindow'
 
-    rd_gokturk = Gtk.Template.Child("rd_gokturk")
-    rd_phonologic = Gtk.Template.Child("rd_phonologic")
-    rd_modern = Gtk.Template.Child("rd_modern")
+    cb_old = Gtk.Template.Child("cb_old")
+    cb_phonologic = Gtk.Template.Child("cb_phonologic")
+    cb_modern = Gtk.Template.Child("cb_modern")
 
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
 
-        self.rd_gokturk.connect("toggled", self.on_gokturk)
-        self.rd_phonologic.connect("toggled", self.on_phonologic)
-        self.rd_modern.connect("toggled", self.on_modern)
+        self.cb_old.connect("toggled", self.visible_old)
+        self.cb_phonologic.connect("toggled", self.visible_phonologic)
+        self.cb_modern.connect("toggled", self.visible_modern)
 
-        self.rd_gokturk.set_active(True)
+        self.cb_old.set_active(True)
+        for openclose in (1, 0):
+            self.cb_phonologic.set_active(openclose)
+            self.cb_modern.set_active(openclose)
 
-    def on_gokturk(self, button):
-        """Sets the visibility to only Gokturk form."""
-        self.visible_gokturk(True)
-        self.visible_phonologic(False)
-        self.visible_modern(False)
+    def visible_old(self, button):
+        """Sets old widgets visibility to the given button state."""
+        check = button.get_active()
 
-    def on_phonologic(self, button):
-        """Sets the visibility to only Phonologic form."""
-        self.visible_gokturk(False)
-        self.visible_phonologic(True)
-        self.visible_modern(False)
+    def visible_phonologic(self, button):
+        """Sets phonologic widgets visibility to the given button state."""
+        check = button.get_active()
 
-    def on_modern(self, button):
-        """Sets the visibility to only Modern form."""
-        self.visible_gokturk(False)
-        self.visible_phonologic(False)
-        self.visible_modern(True)
-
-    def visible_gokturk(self, boolean):
-        """Sets gokturk widgets visibility to the given *boolean*."""
-        pass
-
-    def visible_phonologic(self, boolean):
-        """Sets phonologic widgets visibility to the given *boolean*."""
-        pass
-
-    def visible_modern(self, boolean):
-        """Sets modern widgets visibility to the given *boolean*."""
-        pass
+    def visible_modern(self, button):
+        """Sets modern widgets visibility to the given button state."""
+        check = button.get_active()

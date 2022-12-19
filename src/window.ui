@@ -17,18 +17,16 @@
               </object>
             </property>
             <child type="start">
-              <object class="GtkBox" id="radio_box">
+              <object class="GtkBox" id="check_box">
                 <child>
-                  <object class="GtkCheckButton" id="rd_gokturk"></object>
+                  <object class="GtkCheckButton" id="cb_old"></object>
                 </child>
                 <child>
-                  <object class="GtkCheckButton" id="rd_phonologic">
-                    <property name="group">rd_gokturk</property>
+                  <object class="GtkCheckButton" id="cb_phonologic">
                   </object>
                 </child>
                 <child>
-                  <object class="GtkCheckButton" id="rd_modern">
-                    <property name="group">rd_gokturk</property>
+                  <object class="GtkCheckButton" id="cb_modern">
                   </object>
                 </child>
               </object>
@@ -49,7 +47,7 @@
                 <property name="title" translatable="true">Bilge Khagan</property>
                 <property name="child">
                   <object class="PageBilgeKhagan" id="bilge_khagan_page"></object>
-               </property>
+                </property>
               </object>
             </child>
             <child>
