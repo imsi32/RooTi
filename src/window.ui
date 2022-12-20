@@ -17,16 +17,26 @@
               </object>
             </property>
             <child type="start">
-              <object class="GtkBox" id="check_box">
+              <object class="GtkBox" id="button_box">
+                <style>
+                  <class name="linked"/>
+                </style>
                 <child>
-                  <object class="GtkCheckButton" id="cb_old"></object>
-                </child>
-                <child>
-                  <object class="GtkCheckButton" id="cb_phonologic">
+                  <object class="GtkToggleButton" id="tb_old">
+                    <property name="label">O</property>
+                    <property name="tooltip-text" translatable="true">Show Old Scripts</property>
                   </object>
                 </child>
                 <child>
-                  <object class="GtkCheckButton" id="cb_modern">
+                  <object class="GtkToggleButton" id="tb_phonologic">
+                    <property name="label">P</property>
+                    <property name="tooltip-text" translatable="true">Show Phonologic Scripts</property>
+                  </object>
+                </child>
+                <child>
+                  <object class="GtkToggleButton" id="tb_modern">
+                    <property name="label">M</property>
+                    <property name="tooltip-text" translatable="true">Show Modern Scripts</property>
                   </object>
                 </child>
               </object>

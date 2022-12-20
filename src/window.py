@@ -29,21 +29,21 @@ from .inscriptions.tonyukuk.tonyukuk_page import PageTonyukuk
 class RootiWindow(Adw.ApplicationWindow):
     __gtype_name__ = 'RootiWindow'
 
-    cb_old = Gtk.Template.Child("cb_old")
-    cb_phonologic = Gtk.Template.Child("cb_phonologic")
-    cb_modern = Gtk.Template.Child("cb_modern")
+    tb_old = Gtk.Template.Child("tb_old")
+    tb_phonologic = Gtk.Template.Child("tb_phonologic")
+    tb_modern = Gtk.Template.Child("tb_modern")
 
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
 
-        self.cb_old.connect("toggled", self.visible_old)
-        self.cb_phonologic.connect("toggled", self.visible_phonologic)
-        self.cb_modern.connect("toggled", self.visible_modern)
+        self.tb_old.connect("toggled", self.visible_old)
+        self.tb_phonologic.connect("toggled", self.visible_phonologic)
+        self.tb_modern.connect("toggled", self.visible_modern)
 
-        self.cb_old.set_active(True)
+        self.tb_old.set_active(True)
         for openclose in (1, 0):
-            self.cb_phonologic.set_active(openclose)
-            self.cb_modern.set_active(openclose)
+            self.tb_phonologic.set_active(openclose)
+            self.tb_modern.set_active(openclose)
 
     def visible_old(self, button):
         """Sets old widgets visibility to the given button state."""
