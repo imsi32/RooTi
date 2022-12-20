@@ -23,19 +23,19 @@
                 </style>
                 <child>
                   <object class="GtkToggleButton" id="tb_old">
-                    <property name="label">O</property>
+                    <property name="icon_name">O</property>
                     <property name="tooltip-text" translatable="true">Show Old Scripts</property>
                   </object>
                 </child>
                 <child>
                   <object class="GtkToggleButton" id="tb_phonologic">
-                    <property name="label">P</property>
+                    <property name="icon_name">P</property>
                     <property name="tooltip-text" translatable="true">Show Phonologic Scripts</property>
                   </object>
                 </child>
                 <child>
                   <object class="GtkToggleButton" id="tb_modern">
-                    <property name="label">M</property>
+                    <property name="icon_name">M</property>
                     <property name="tooltip-text" translatable="true">Show Modern Scripts</property>
                   </object>
                 </child>
