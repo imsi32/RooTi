@@ -50,32 +50,36 @@
           </object>
         </child>
         <child>
-          <object class="AdwViewStack" id="inscriptions_stack">
+          <object class="GtkScrolledWindow" id="scrolled_window">
             <child>
-              <object class="AdwViewStackPage" id="bilge_khagan_inscription">
-                <property name="name">bilge_khagan</property>
-                <property name="title" translatable="true">Bilge Khagan</property>
-                <property name="child">
-                  <object class="PageBilgeKhagan" id="bilge_khagan_page"></object>
-                </property>
-              </object>
-            </child>
-            <child>
-              <object class="AdwViewStackPage" id="kul_tigin_inscription">
-                <property name="name">kul_tigin</property>
-                <property name="title" translatable="true">Kul Tigin</property>
-                <property name="child">
-                  <object class="PageKulTigin" id="kul_tigin_page"></object>
-                </property>
-              </object>
-            </child>
-            <child>
-              <object class="AdwViewStackPage" id="tonyukuk_inscription">
-                <property name="name">tonyukuk</property>
-                <property name="title" translatable="true">Tonyukuk</property>
-                <property name="child">
-                  <object class="PageTonyukuk" id="tonyukuk_page"></object>
-                </property>
+              <object class="AdwViewStack" id="inscriptions_stack">
+                <child>
+                  <object class="AdwViewStackPage" id="bilge_khagan_inscription">
+                    <property name="name">bilge_khagan</property>
+                    <property name="title" translatable="true">Bilge Khagan</property>
+                    <property name="child">
+                      <object class="PageBilgeKhagan" id="bilge_khagan_page"></object>
+                    </property>
+                  </object>
+                </child>
+                <child>
+                  <object class="AdwViewStackPage" id="kul_tigin_inscription">
+                    <property name="name">kul_tigin</property>
+                    <property name="title" translatable="true">Kul Tigin</property>
+                    <property name="child">
+                      <object class="PageKulTigin" id="kul_tigin_page"></object>
+                    </property>
+                  </object>
+                </child>
+                <child>
+                  <object class="AdwViewStackPage" id="tonyukuk_inscription">
+                    <property name="name">tonyukuk</property>
+                    <property name="title" translatable="true">Tonyukuk</property>
+                    <property name="child">
+                      <object class="PageTonyukuk" id="tonyukuk_page"></object>
+                    </property>
+                  </object>
+                </child>
               </object>
             </child>
           </object>
