@@ -1,4 +1,4 @@
-# tonyukuk_page.py
+# slide_first_stone_south.py
 #
 # Copyright 2022 imsi32
 #
@@ -20,12 +20,11 @@
 from gi.repository import Adw
 from gi.repository import Gtk
 
-from .slide_first_stone_west import SlideFirstStoneWest
-from .slide_first_stone_south import SlideFirstStoneSouth
 
-@Gtk.Template(resource_path='/com/github/imsi32/RooTi/inscriptions/tonyukuk/tonyukuk_page.ui')
-class PageTonyukuk(Gtk.Box):
-    __gtype_name__ = 'PageTonyukuk'
+
+@Gtk.Template(resource_path='/com/github/imsi32/RooTi/inscriptions/tonyukuk/slide_first_stone_south.ui')
+class SlideFirstStoneSouth(Adw.Bin):
+    __gtype_name__ = 'SlideFirstStoneSouth'
 
 
     def __init__(self, **kwargs):

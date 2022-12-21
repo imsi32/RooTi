@@ -5,8 +5,19 @@
   <template class="PageTonyukuk" parent="GtkBox">
     <property name="orientation">vertical</property>
     <child>
-      <object class="GtkLabel" id="pagebox1">
-        <property name="label">Tonyukuk Inscriptions</property>
+      <object class="AdwCarousel" id="tonyukuk_carousel">
+        <property name="allow_long_swipes">true</property>
+        <child>
+          <object class="SlideFirstStoneWest" id="tonyukuk_slide_first_stone_west"></object>
+        </child>
+        <child>
+          <object class="SlideFirstStoneSouth" id="tonyukuk_slide_first_stone_south"></object>
+        </child>
+      </object>
+    </child>
+    <child>
+      <object class="AdwCarouselIndicatorDots" id="tonyukuk_carousel_dots">
+        <property name="carousel">tonyukuk_carousel</property>
       </object>
     </child>
   </template>

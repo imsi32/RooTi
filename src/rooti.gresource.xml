@@ -6,5 +6,7 @@
     <file preprocess="xml-stripblanks">inscriptions/bilge_khagan/bilge_khagan_page.ui</file>
     <file preprocess="xml-stripblanks">inscriptions/kul_tigin/kul_tigin_page.ui</file>
     <file preprocess="xml-stripblanks">inscriptions/tonyukuk/tonyukuk_page.ui</file>
+    <file preprocess="xml-stripblanks">inscriptions/tonyukuk/slide_first_stone_west.ui</file>
+    <file preprocess="xml-stripblanks">inscriptions/tonyukuk/slide_first_stone_south.ui</file>
   </gresource>
 </gresources>
