@@ -13,6 +13,24 @@
         <child>
           <object class="SlideFirstStoneSouth" id="tonyukuk_slide_first_stone_south"></object>
         </child>
+        <child>
+          <object class="SlideFirstStoneEast" id="tonyukuk_slide_first_stone_east"></object>
+        </child>
+         <child>
+          <object class="SlideFirstStoneNorth" id="tonyukuk_slide_first_stone_north"></object>
+        </child>
+        <child>
+          <object class="SlideSecondStoneWest" id="tonyukuk_slide_second_stone_west"></object>
+        </child>
+        <child>
+          <object class="SlideSecondStoneSouth" id="tonyukuk_slide_second_stone_south"></object>
+        </child>
+        <child>
+          <object class="SlideSecondStoneEast" id="tonyukuk_slide_second_stone_east"></object>
+        </child>
+         <child>
+          <object class="SlideSecondStoneNorth" id="tonyukuk_slide_second_stone_north"></object>
+        </child>
       </object>
     </child>
     <child>

@@ -4,11 +4,11 @@
   <requires lib="Adw" version="1.0"/>
   <template class="SlideFirstStoneWest" parent="AdwBin">
     <child>
-      <object class="AdwClamp" id="clamp10">
+      <object class="AdwClamp" id="clamp_first_stone_west">
         <property name="maximum_size">800</property>
         <property name="vexpand">true</property>
         <child>
-          <object class="GtkListBox" id="listBox10">
+          <object class="GtkListBox" id="list_box_first_stone_west">
             <property name="margin-top">12</property>
             <property name="margin-bottom">12</property>
             <property name="margin-start">12</property>
@@ -18,16 +18,16 @@
               <class name="boxed-list"/>
             </style>
             <child>
-              <object class="GtkListBoxRow" id="row1">
+              <object class="GtkListBoxRow">
                 <property name="visible">true</property>
                 <child>
-                  <object class="GtkLabel" id="labelTitle10">
+                  <object class="GtkLabel">
                     <property name="margin-top">12</property>
                     <property name="margin-bottom">12</property>
                     <property name="margin-start">12</property>
                     <property name="margin-end">12</property>
                     <property name="valign">start</property>
-                    <property name="label">ListBox10</property>
+                    <property name="label">list_box_first_stone_west</property>
                     <style>
                       <class name="title-4"/>
                     </style>
@@ -36,10 +36,10 @@
               </object>
             </child>
             <child>
-              <object class="GtkListBoxRow" id="row2">
+              <object class="GtkListBoxRow">
                 <property name="visible">true</property>
                 <child>
-                  <object class="GtkLabel" id="label10">
+                  <object class="GtkLabel">
                     <property name="selectable">true</property>
                     <property name="margin-top">12</property>
                     <property name="margin-bottom">12</property>
@@ -52,10 +52,10 @@
               </object>
             </child>
             <child>
-              <object class="GtkListBoxRow" id="row3">
+              <object class="GtkListBoxRow">
               <property name="visible">true</property>
                 <child>
-                  <object class="GtkLabel" id="label20">
+                  <object class="GtkLabel">
                     <property name="selectable">true</property>
                     <property name="margin-top">12</property>
                     <property name="margin-bottom">12</property>

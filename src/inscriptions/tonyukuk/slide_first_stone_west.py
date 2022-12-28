@@ -25,9 +25,6 @@ from gi.repository import Gtk
 class SlideFirstStoneWest(Adw.Bin):
     __gtype_name__ = 'SlideFirstStoneWest'
 
-    row1 = Gtk.Template.Child()
-    row2 = Gtk.Template.Child()
-    row3 = Gtk.Template.Child()
 
     def __init__(self, **kwargs):
         super().__init__(**kwargs)

@@ -8,5 +8,11 @@
     <file preprocess="xml-stripblanks">inscriptions/tonyukuk/tonyukuk_page.ui</file>
     <file preprocess="xml-stripblanks">inscriptions/tonyukuk/slide_first_stone_west.ui</file>
     <file preprocess="xml-stripblanks">inscriptions/tonyukuk/slide_first_stone_south.ui</file>
+    <file preprocess="xml-stripblanks">inscriptions/tonyukuk/slide_first_stone_east.ui</file>
+    <file preprocess="xml-stripblanks">inscriptions/tonyukuk/slide_first_stone_north.ui</file>
+    <file preprocess="xml-stripblanks">inscriptions/tonyukuk/slide_second_stone_west.ui</file>
+    <file preprocess="xml-stripblanks">inscriptions/tonyukuk/slide_second_stone_south.ui</file>
+    <file preprocess="xml-stripblanks">inscriptions/tonyukuk/slide_second_stone_east.ui</file>
+    <file preprocess="xml-stripblanks">inscriptions/tonyukuk/slide_second_stone_north.ui</file>
   </gresource>
 </gresources>
