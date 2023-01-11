@@ -20,15 +20,15 @@
 from gi.repository import Adw
 from gi.repository import Gtk
 
-from .slide_first_stone_west import SlideFirstStoneWest
-from .slide_first_stone_south import SlideFirstStoneSouth
-from .slide_first_stone_east import SlideFirstStoneEast
-from .slide_first_stone_north import SlideFirstStoneNorth
+from .tonyukuk_slide_first_stone_west import TonyukukSlideFirstStoneWest
+from .tonyukuk_slide_first_stone_south import TonyukukSlideFirstStoneSouth
+from .tonyukuk_slide_first_stone_east import TonyukukSlideFirstStoneEast
+from .tonyukuk_slide_first_stone_north import TonyukukSlideFirstStoneNorth
 
-from .slide_second_stone_west import SlideSecondStoneWest
-from .slide_second_stone_south import SlideSecondStoneSouth
-from .slide_second_stone_east import SlideSecondStoneEast
-from .slide_second_stone_north import SlideSecondStoneNorth
+from .tonyukuk_slide_second_stone_west import TonyukukSlideSecondStoneWest
+from .tonyukuk_slide_second_stone_south import TonyukukSlideSecondStoneSouth
+from .tonyukuk_slide_second_stone_east import TonyukukSlideSecondStoneEast
+from .tonyukuk_slide_second_stone_north import TonyukukSlideSecondStoneNorth
 
 
 

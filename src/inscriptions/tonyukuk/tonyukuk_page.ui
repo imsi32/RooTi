@@ -8,28 +8,28 @@
       <object class="AdwCarousel" id="tonyukuk_carousel">
         <property name="allow_long_swipes">true</property>
         <child>
-          <object class="SlideFirstStoneWest" id="tonyukuk_slide_first_stone_west"></object>
+          <object class="TonyukukSlideFirstStoneWest" id="tonyukuk_slide_first_stone_west"></object>
         </child>
         <child>
-          <object class="SlideFirstStoneSouth" id="tonyukuk_slide_first_stone_south"></object>
+          <object class="TonyukukSlideFirstStoneSouth" id="tonyukuk_slide_first_stone_south"></object>
         </child>
         <child>
-          <object class="SlideFirstStoneEast" id="tonyukuk_slide_first_stone_east"></object>
+          <object class="TonyukukSlideFirstStoneEast" id="tonyukuk_slide_first_stone_east"></object>
         </child>
          <child>
-          <object class="SlideFirstStoneNorth" id="tonyukuk_slide_first_stone_north"></object>
+          <object class="TonyukukSlideFirstStoneNorth" id="tonyukuk_slide_first_stone_north"></object>
         </child>
         <child>
-          <object class="SlideSecondStoneWest" id="tonyukuk_slide_second_stone_west"></object>
+          <object class="TonyukukSlideSecondStoneWest" id="tonyukuk_slide_second_stone_west"></object>
         </child>
         <child>
-          <object class="SlideSecondStoneSouth" id="tonyukuk_slide_second_stone_south"></object>
+          <object class="TonyukukSlideSecondStoneSouth" id="tonyukuk_slide_second_stone_south"></object>
         </child>
         <child>
-          <object class="SlideSecondStoneEast" id="tonyukuk_slide_second_stone_east"></object>
+          <object class="TonyukukSlideSecondStoneEast" id="tonyukuk_slide_second_stone_east"></object>
         </child>
          <child>
-          <object class="SlideSecondStoneNorth" id="tonyukuk_slide_second_stone_north"></object>
+          <object class="TonyukukSlideSecondStoneNorth" id="tonyukuk_slide_second_stone_north"></object>
         </child>
       </object>
     </child>

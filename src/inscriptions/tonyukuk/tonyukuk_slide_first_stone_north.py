@@ -1,4 +1,4 @@
-# slide_second_stone_west.py
+# tonyukuk_slide_first_stone_north.py
 #
 # Copyright 2022 imsi32
 #
@@ -21,10 +21,9 @@ from gi.repository import Adw
 from gi.repository import Gtk
 
 
-@Gtk.Template(resource_path='/com/github/imsi32/RooTi/inscriptions/tonyukuk/slide_second_stone_west.ui')
-class SlideSecondStoneWest(Adw.Bin):
-    __gtype_name__ = 'SlideSecondStoneWest'
-
+@Gtk.Template(resource_path='/com/github/imsi32/RooTi/inscriptions/tonyukuk/tonyukuk_slide_first_stone_north.ui')
+class TonyukukSlideFirstStoneNorth(Adw.Bin):
+    __gtype_name__ = 'TonyukukSlideFirstStoneNorth'
 
     def __init__(self, **kwargs):
         super().__init__(**kwargs)

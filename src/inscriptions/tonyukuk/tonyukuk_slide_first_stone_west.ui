@@ -2,13 +2,13 @@
 <interface>
   <requires lib="gtk" version="4.0"/>
   <requires lib="Adw" version="1.0"/>
-  <template class="SlideFirstStoneSouth" parent="AdwBin">"
+  <template class="TonyukukSlideFirstStoneWest" parent="AdwBin">
     <child>
-      <object class="AdwClamp" id="clamp_first_stone_south">
+      <object class="AdwClamp" id="tonyukuk_clamp_first_stone_west">
         <property name="maximum_size">800</property>
         <property name="vexpand">true</property>
         <child>
-          <object class="GtkListBox" id="list_box_first_stone_south">
+          <object class="GtkListBox" id="tonyukuk_list_box_first_stone_west">
             <property name="margin-top">12</property>
             <property name="margin-bottom">12</property>
             <property name="margin-start">12</property>
@@ -27,7 +27,7 @@
                     <property name="margin-start">12</property>
                     <property name="margin-end">12</property>
                     <property name="valign">start</property>
-                    <property name="label">list_box_first_stone_south</property>
+                    <property name="label">list_box_first_stone_west</property>
                     <style>
                       <class name="title-4"/>
                     </style>
