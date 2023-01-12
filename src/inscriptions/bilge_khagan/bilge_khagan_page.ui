@@ -5,9 +5,35 @@
   <template class="PageBilgeKhagan" parent="GtkBox">
     <property name="orientation">vertical</property>
     <child>
-      <object class="GtkLabel" id="pagebox2">
-        <property name="label">Bilge Khagan Inscriptions</property>
+      <object class="AdwCarousel" id="bilge_khagan_carousel">
+        <property name="allow_long_swipes">true</property>
+        <child>
+          <object class="BilgeKhaganSlideSouth" id="bilge_khagan_slide_south"></object>
+        </child>
+        <child>
+          <object class="BilgeKhaganSlideSoutheast" id="bilge_khagan_slide_southeast"></object>
+        </child>
+        <child>
+          <object class="BilgeKhaganSlideEast" id="bilge_khagan_slide_east"></object>
+        </child>
+         <child>
+          <object class="BilgeKhaganSlideNortheast" id="bilge_khagan_slide_northeast"></object>
+        </child>
+        <child>
+          <object class="BilgeKhaganSlideNorth" id="bilge_khagan_slide_north"></object>
+        </child>
+        <child>
+          <object class="BilgeKhaganSlideWest" id="bilge_khagan_slide_west"></object>
+        </child>
+        <child>
+          <object class="BilgeKhaganSlideSouthwest" id="bilge_khagan_slide_southwest"></object>
+        </child>
       </object>
     </child>
+    <child>
+      <object class="AdwCarouselIndicatorDots" id="bilge_khagan_carousel_dots">
+        <property name="carousel">bilge_khagan_carousel</property>
+      </object>
+    </child>  
   </template>
 </interface>

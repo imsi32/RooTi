@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <requires lib="gtk" version="4.0"/>
+  <requires lib="Adw" version="1.0"/>
+  <template class="BilgeKhaganSlideSoutheast" parent="AdwBin">"
+    <child>
+      <object class="AdwClamp" id="bilge_khagan_clamp_southeast">
+        <property name="maximum_size">800</property>
+        <property name="vexpand">true</property>
+        <child>
+          <object class="GtkListBox" id="bilge_khagan_list_box_southeast">
+            <property name="margin-top">12</property>
+            <property name="margin-bottom">12</property>
+            <property name="margin-start">12</property>
+            <property name="margin-end">12</property>
+            <property name="vexpand">true</property>
+            <style>
+              <class name="boxed-list"/>
+            </style>
+            <child>
+              <object class="GtkListBoxRow">
+                <property name="visible">true</property>
+                <child>
+                  <object class="GtkLabel">
+                    <property name="margin-top">12</property>
+                    <property name="margin-bottom">12</property>
+                    <property name="margin-start">12</property>
+                    <property name="margin-end">12</property>
+                    <property name="valign">start</property>
+                    <property name="label">bilge_khagan_list_box_southeast</property>
+                    <style>
+                      <class name="title-4"/>
+                    </style>
+                  </object>
+                </child>
+              </object>
+            </child>
+            <child>
+              <object class="GtkListBoxRow">
+                <property name="visible">true</property>
+                <child>
+                  <object class="GtkLabel">
+                    <property name="selectable">true</property>
+                    <property name="margin-top">12</property>
+                    <property name="margin-bottom">12</property>
+                    <property name="margin-start">12</property>
+                    <property name="margin-end">12</property>
+                    <property name="wrap">true</property>
+                    <property name="label">2 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquip ex ea commodi consequatur? quis.</property>
+                  </object>
+                </child>
+              </object>
+            </child>
+            <child>
+              <object class="GtkListBoxRow">
+              <property name="visible">true</property>
+                <child>
+                  <object class="GtkLabel">
+                    <property name="selectable">true</property>
+                    <property name="margin-top">12</property>
+                    <property name="margin-bottom">12</property>
+                    <property name="margin-start">12</property>
+                    <property name="margin-end">12</property>
+                    <property name="wrap">true</property>
+                    <property name="label">3 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquip ex ea commodi consequatur? quis.</property>
+                  </object>
+                </child>
+              </object>
+            </child>
+          </object>
+        </child>
+      </object>
+    </child>
+  </template>
+</interface>

@@ -1,4 +1,4 @@
-# bilge_khagan_page.py
+# bilge_khagan_slide_west.py
 #
 # Copyright 2022 imsi32
 #
@@ -20,18 +20,10 @@
 from gi.repository import Adw
 from gi.repository import Gtk
 
-from .bilge_khagan_slide_south import BilgeKhaganSlideSouth
-from .bilge_khagan_slide_southeast import BilgeKhaganSlideSoutheast
-from .bilge_khagan_slide_east import BilgeKhaganSlideEast
-from .bilge_khagan_slide_northeast import BilgeKhaganSlideNortheast
-from .bilge_khagan_slide_north import BilgeKhaganSlideNorth
-from .bilge_khagan_slide_west import BilgeKhaganSlideWest
-from .bilge_khagan_slide_southwest import BilgeKhaganSlideSouthwest
 
-
-@Gtk.Template(resource_path='/com/github/imsi32/RooTi/inscriptions/bilge_khagan/bilge_khagan_page.ui')
-class PageBilgeKhagan(Gtk.Box):
-    __gtype_name__ = 'PageBilgeKhagan'
+@Gtk.Template(resource_path='/com/github/imsi32/RooTi/inscriptions/bilge_khagan/bilge_khagan_slide_west.ui')
+class BilgeKhaganSlideWest(Adw.Bin):
+    __gtype_name__ = 'BilgeKhaganSlideWest'
 
     def __init__(self, **kwargs):
         super().__init__(**kwargs)

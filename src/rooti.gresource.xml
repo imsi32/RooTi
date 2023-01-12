@@ -4,6 +4,13 @@
     <file preprocess="xml-stripblanks">window.ui</file>
     <file preprocess="xml-stripblanks">gtk/help-overlay.ui</file>
     <file preprocess="xml-stripblanks">inscriptions/bilge_khagan/bilge_khagan_page.ui</file>
+    <file preprocess="xml-stripblanks">inscriptions/bilge_khagan/bilge_khagan_slide_south.ui</file>
+    <file preprocess="xml-stripblanks">inscriptions/bilge_khagan/bilge_khagan_slide_southeast.ui</file>
+    <file preprocess="xml-stripblanks">inscriptions/bilge_khagan/bilge_khagan_slide_east.ui</file>
+    <file preprocess="xml-stripblanks">inscriptions/bilge_khagan/bilge_khagan_slide_northeast.ui</file>
+    <file preprocess="xml-stripblanks">inscriptions/bilge_khagan/bilge_khagan_slide_north.ui</file>
+    <file preprocess="xml-stripblanks">inscriptions/bilge_khagan/bilge_khagan_slide_west.ui</file>
+    <file preprocess="xml-stripblanks">inscriptions/bilge_khagan/bilge_khagan_slide_southwest.ui</file>
     <file preprocess="xml-stripblanks">inscriptions/kul_tigin/kul_tigin_page.ui</file>
     <file preprocess="xml-stripblanks">inscriptions/tonyukuk/tonyukuk_page.ui</file>
     <file preprocess="xml-stripblanks">inscriptions/tonyukuk/tonyukuk_slide_first_stone_west.ui</file>
