@@ -27,7 +27,7 @@
                     <property name="margin-start">12</property>
                     <property name="margin-end">12</property>
                     <property name="valign">start</property>
-                    <property name="label">list_box_second_stone_west</property>
+                    <property name="label">tonyukuk_list_box_second_stone_west</property>
                     <style>
                       <class name="title-4"/>
                     </style>

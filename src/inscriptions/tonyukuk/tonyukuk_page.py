@@ -31,11 +31,9 @@ from .tonyukuk_slide_second_stone_east import TonyukukSlideSecondStoneEast
 from .tonyukuk_slide_second_stone_north import TonyukukSlideSecondStoneNorth
 
 
-
 @Gtk.Template(resource_path='/com/github/imsi32/RooTi/inscriptions/tonyukuk/tonyukuk_page.ui')
 class PageTonyukuk(Gtk.Box):
     __gtype_name__ = 'PageTonyukuk'
-
 
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
