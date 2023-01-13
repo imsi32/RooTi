@@ -2,7 +2,7 @@ pkgdatadir = join_paths(get_option('prefix'), get_option('datadir'), meson.proje
 inscriptionsdir = join_paths(pkgdatadir, 'rooti/inscriptions')
 
 subdir('bilge_khagan')
-subdir('kul_tigin')
+subdir('koltigin')
 subdir('tonyukuk')
 
 sources = [

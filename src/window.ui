@@ -64,10 +64,10 @@
                 </child>
                 <child>
                   <object class="AdwViewStackPage" id="kul_tigin_inscription">
-                    <property name="name">kul_tigin</property>
-                    <property name="title" translatable="true">Kul Tigin</property>
+                    <property name="name">koltigin</property>
+                    <property name="title" translatable="true">Koltigin</property>
                     <property name="child">
-                      <object class="PageKulTigin" id="kul_tigin_page"></object>
+                      <object class="PageKoltigin" id="koltigin_page"></object>
                     </property>
                   </object>
                 </child>

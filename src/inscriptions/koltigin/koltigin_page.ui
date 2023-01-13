@@ -2,11 +2,11 @@
 <interface>
   <requires lib="gtk" version="4.0"/>
   <requires lib="Adw" version="1.0"/>
-  <template class="PageKulTigin" parent="GtkBox">
+  <template class="PageKoltigin" parent="GtkBox">
     <property name="orientation">vertical</property>
     <child>
       <object class="GtkLabel" id="pagebox5">
-        <property name="label">Kul Tigin Inscriptions</property>
+        <property name="label">Koltigin Inscriptions</property>
       </object>
     </child>
   </template>

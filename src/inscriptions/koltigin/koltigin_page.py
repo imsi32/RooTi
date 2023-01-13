@@ -1,4 +1,4 @@
-# kul_tigin_page.py
+# koltigin_page.py
 #
 # Copyright 2022 imsi32
 #
@@ -21,9 +21,9 @@ from gi.repository import Adw
 from gi.repository import Gtk
 
 
-@Gtk.Template(resource_path='/com/github/imsi32/RooTi/inscriptions/kul_tigin/kul_tigin_page.ui')
-class PageKulTigin(Gtk.Box):
-    __gtype_name__ = 'PageKulTigin'
+@Gtk.Template(resource_path='/com/github/imsi32/RooTi/inscriptions/koltigin/koltigin_page.ui')
+class PageKoltigin(Gtk.Box):
+    __gtype_name__ = 'PageKoltigin'
 
 
     def __init__(self, **kwargs):

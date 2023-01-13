@@ -21,7 +21,7 @@ from gi.repository import Adw
 from gi.repository import Gtk
 
 from .inscriptions.bilge_khagan.bilge_khagan_page import PageBilgeKhagan
-from .inscriptions.kul_tigin.kul_tigin_page import PageKulTigin
+from .inscriptions.koltigin.koltigin_page import PageKoltigin
 from .inscriptions.tonyukuk.tonyukuk_page import PageTonyukuk
 
 
