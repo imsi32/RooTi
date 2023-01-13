@@ -8,16 +8,13 @@
       <object class="AdwCarousel" id="bilge_khagan_carousel">
         <property name="allow_long_swipes">true</property>
         <child>
-          <object class="BilgeKhaganSlideSouth" id="bilge_khagan_slide_south"></object>
+          <object class="BilgeKhaganSlideEast" id="bilge_khagan_slide_east"></object>
         </child>
         <child>
           <object class="BilgeKhaganSlideSoutheast" id="bilge_khagan_slide_southeast"></object>
         </child>
         <child>
-          <object class="BilgeKhaganSlideEast" id="bilge_khagan_slide_east"></object>
-        </child>
-         <child>
-          <object class="BilgeKhaganSlideNortheast" id="bilge_khagan_slide_northeast"></object>
+          <object class="BilgeKhaganSlideSouth" id="bilge_khagan_slide_south"></object>
         </child>
         <child>
           <object class="BilgeKhaganSlideNorth" id="bilge_khagan_slide_north"></object>
