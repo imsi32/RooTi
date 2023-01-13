@@ -21,12 +21,12 @@ from gi.repository import Adw
 from gi.repository import Gtk
 
 from .koltigin_slide_south import KoltiginSlideSouth
-from .koltigin_slide_southeast import KoltiginSlideSoutheast
 from .koltigin_slide_east import KoltiginSlideEast
-from .koltigin_slide_northeast import KoltiginSlideNortheast
 from .koltigin_slide_north import KoltiginSlideNorth
-from .koltigin_slide_west import KoltiginSlideWest
+from .koltigin_slide_northeast import KoltiginSlideNortheast
+from .koltigin_slide_southeast import KoltiginSlideSoutheast
 from .koltigin_slide_southwest import KoltiginSlideSouthwest
+from .koltigin_slide_west import KoltiginSlideWest
 
 
 @Gtk.Template(resource_path='/com/github/imsi32/RooTi/inscriptions/koltigin/koltigin_page.ui')

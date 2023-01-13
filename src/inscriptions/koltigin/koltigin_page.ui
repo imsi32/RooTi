@@ -11,22 +11,22 @@
           <object class="KoltiginSlideSouth" id="koltigin_slide_south"></object>
         </child>
         <child>
-          <object class="KoltiginSlideSoutheast" id="koltigin_slide_southeast"></object>
-        </child>
-        <child>
           <object class="KoltiginSlideEast" id="koltigin_slide_east"></object>
-        </child>
-         <child>
-          <object class="KoltiginSlideNortheast" id="koltigin_slide_northeast"></object>
         </child>
         <child>
           <object class="KoltiginSlideNorth" id="koltigin_slide_north"></object>
         </child>
         <child>
-          <object class="KoltiginSlideWest" id="koltigin_slide_west"></object>
+          <object class="KoltiginSlideNortheast" id="koltigin_slide_northeast"></object>
+        </child>
+        <child>
+          <object class="KoltiginSlideSoutheast" id="koltigin_slide_southeast"></object>
         </child>
         <child>
           <object class="KoltiginSlideSouthwest" id="koltigin_slide_southwest"></object>
+        </child>
+        <child>
+          <object class="KoltiginSlideWest" id="koltigin_slide_west"></object>
         </child>
       </object>
     </child>
