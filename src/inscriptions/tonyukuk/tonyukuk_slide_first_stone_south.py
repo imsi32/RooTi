@@ -25,5 +25,38 @@ from gi.repository import Gtk
 class TonyukukSlideFirstStoneSouth(Adw.Bin):
     __gtype_name__ = 'TonyukukSlideFirstStoneSouth'
 
+    old_T_1S_S1 = Gtk.Template.Child("old_T_1S_S1")
+    old_T_1S_S2 = Gtk.Template.Child("old_T_1S_S2")
+    old_T_1S_S3 = Gtk.Template.Child("old_T_1S_S3")
+    old_T_1S_S4 = Gtk.Template.Child("old_T_1S_S4")
+    old_T_1S_S5 = Gtk.Template.Child("old_T_1S_S5")
+    old_T_1S_S6 = Gtk.Template.Child("old_T_1S_S6")
+    old_T_1S_S7 = Gtk.Template.Child("old_T_1S_S7")
+    old_T_1S_S8 = Gtk.Template.Child("old_T_1S_S8")
+    old_T_1S_S9 = Gtk.Template.Child("old_T_1S_S9")
+    old_T_1S_S10 = Gtk.Template.Child("old_T_1S_S10")
+
+    pho_T_1S_S1 = Gtk.Template.Child("pho_T_1S_S1")
+    pho_T_1S_S2 = Gtk.Template.Child("pho_T_1S_S2")
+    pho_T_1S_S3 = Gtk.Template.Child("pho_T_1S_S3")
+    pho_T_1S_S4 = Gtk.Template.Child("pho_T_1S_S4")
+    pho_T_1S_S5 = Gtk.Template.Child("pho_T_1S_S5")
+    pho_T_1S_S6 = Gtk.Template.Child("pho_T_1S_S6")
+    pho_T_1S_S7 = Gtk.Template.Child("pho_T_1S_S7")
+    pho_T_1S_S8 = Gtk.Template.Child("pho_T_1S_S8")
+    pho_T_1S_S9 = Gtk.Template.Child("pho_T_1S_S9")
+    pho_T_1S_S10 = Gtk.Template.Child("pho_T_1S_S10")
+
+    mod_T_1S_S1 = Gtk.Template.Child("mod_T_1S_S1")
+    mod_T_1S_S2 = Gtk.Template.Child("mod_T_1S_S2")
+    mod_T_1S_S3 = Gtk.Template.Child("mod_T_1S_S3")
+    mod_T_1S_S4 = Gtk.Template.Child("mod_T_1S_S4")
+    mod_T_1S_S5 = Gtk.Template.Child("mod_T_1S_S5")
+    mod_T_1S_S6 = Gtk.Template.Child("mod_T_1S_S6")
+    mod_T_1S_S7 = Gtk.Template.Child("mod_T_1S_S7")
+    mod_T_1S_S8 = Gtk.Template.Child("mod_T_1S_S8")
+    mod_T_1S_S9 = Gtk.Template.Child("mod_T_1S_S9")
+    mod_T_1S_S10 = Gtk.Template.Child("mod_T_1S_S10")
+
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
