@@ -35,5 +35,15 @@ from .tonyukuk_slide_second_stone_north import TonyukukSlideSecondStoneNorth
 class PageTonyukuk(Gtk.Box):
     __gtype_name__ = 'PageTonyukuk'
 
+    tonyukuk_slide_first_stone_west = Gtk.Template.Child("tonyukuk_slide_first_stone_west")
+    tonyukuk_slide_first_stone_south = Gtk.Template.Child("tonyukuk_slide_first_stone_south")
+    tonyukuk_slide_first_stone_east = Gtk.Template.Child("tonyukuk_slide_first_stone_east")
+    tonyukuk_slide_first_stone_north = Gtk.Template.Child("tonyukuk_slide_first_stone_north")
+
+    tonyukuk_slide_second_stone_west = Gtk.Template.Child("tonyukuk_slide_second_stone_west")
+    tonyukuk_slide_second_stone_south = Gtk.Template.Child("tonyukuk_slide_second_stone_south")
+    tonyukuk_slide_second_stone_east = Gtk.Template.Child("tonyukuk_slide_second_stone_east")
+    tonyukuk_slide_second_stone_north = Gtk.Template.Child("tonyukuk_slide_second_stone_north")
+
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
