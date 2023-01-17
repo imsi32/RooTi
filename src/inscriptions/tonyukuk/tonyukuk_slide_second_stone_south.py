@@ -25,5 +25,26 @@ from gi.repository import Gtk
 class TonyukukSlideSecondStoneSouth(Adw.Bin):
     __gtype_name__ = 'TonyukukSlideSecondStoneSouth'
 
+    old_T_2S_S1 = Gtk.Template.Child("old_T_2S_S1")
+    old_T_2S_S2 = Gtk.Template.Child("old_T_2S_S2")
+    old_T_2S_S3 = Gtk.Template.Child("old_T_2S_S3")
+    old_T_2S_S4 = Gtk.Template.Child("old_T_2S_S4")
+    old_T_2S_S5 = Gtk.Template.Child("old_T_2S_S5")
+    old_T_2S_S6 = Gtk.Template.Child("old_T_2S_S6")
+
+    pho_T_2S_S1 = Gtk.Template.Child("pho_T_2S_S1")
+    pho_T_2S_S2 = Gtk.Template.Child("pho_T_2S_S2")
+    pho_T_2S_S3 = Gtk.Template.Child("pho_T_2S_S3")
+    pho_T_2S_S4 = Gtk.Template.Child("pho_T_2S_S4")
+    pho_T_2S_S5 = Gtk.Template.Child("pho_T_2S_S5")
+    pho_T_2S_S6 = Gtk.Template.Child("pho_T_2S_S6")
+
+    mod_T_2S_S1 = Gtk.Template.Child("mod_T_2S_S1")
+    mod_T_2S_S2 = Gtk.Template.Child("mod_T_2S_S2")
+    mod_T_2S_S3 = Gtk.Template.Child("mod_T_2S_S3")
+    mod_T_2S_S4 = Gtk.Template.Child("mod_T_2S_S4")
+    mod_T_2S_S5 = Gtk.Template.Child("mod_T_2S_S5")
+    mod_T_2S_S6 = Gtk.Template.Child("mod_T_2S_S6")
+
     def __init__(self, **kwargs):
         super().__init__(**kwargs)

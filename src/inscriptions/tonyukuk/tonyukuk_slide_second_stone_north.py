@@ -25,5 +25,20 @@ from gi.repository import Gtk
 class TonyukukSlideSecondStoneNorth(Adw.Bin):
     __gtype_name__ = 'TonyukukSlideSecondStoneNorth'
 
+    old_T_2S_N1 = Gtk.Template.Child("old_T_2S_N1")
+    old_T_2S_N2 = Gtk.Template.Child("old_T_2S_N2")
+    old_T_2S_N3 = Gtk.Template.Child("old_T_2S_N3")
+    old_T_2S_N4 = Gtk.Template.Child("old_T_2S_N4")
+
+    pho_T_2S_N1 = Gtk.Template.Child("pho_T_2S_N1")
+    pho_T_2S_N2 = Gtk.Template.Child("pho_T_2S_N2")
+    pho_T_2S_N3 = Gtk.Template.Child("pho_T_2S_N3")
+    pho_T_2S_N4 = Gtk.Template.Child("pho_T_2S_N4")
+
+    mod_T_2S_N1 = Gtk.Template.Child("mod_T_2S_N1")
+    mod_T_2S_N2 = Gtk.Template.Child("mod_T_2S_N2")
+    mod_T_2S_N3 = Gtk.Template.Child("mod_T_2S_N3")
+    mod_T_2S_N4 = Gtk.Template.Child("mod_T_2S_N4")
+
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
