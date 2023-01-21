@@ -32,5 +32,12 @@ from .bilge_khagan_slide_southwest import BilgeKhaganSlideSouthwest
 class PageBilgeKhagan(Gtk.Box):
     __gtype_name__ = 'PageBilgeKhagan'
 
+    bilge_khagan_slide_east = Gtk.Template.Child("bilge_khagan_slide_east")
+    bilge_khagan_slide_southeast = Gtk.Template.Child("bilge_khagan_slide_southeast")
+    bilge_khagan_slide_south = Gtk.Template.Child("bilge_khagan_slide_south")
+    bilge_khagan_slide_north = Gtk.Template.Child("bilge_khagan_slide_north")
+    bilge_khagan_slide_west = Gtk.Template.Child("bilge_khagan_slide_west")
+    bilge_khagan_slide_southwest = Gtk.Template.Child("bilge_khagan_slide_southwest")
+
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
