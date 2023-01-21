@@ -18,7 +18,7 @@
               <class name="boxed-list"/>
             </style>
             <child>
-              <object class="GtkListBoxRow">
+              <object class="GtkListBoxRow" id="BK_S">
                 <property name="visible">true</property>
                 <child>
                   <object class="GtkLabel">
@@ -27,7 +27,8 @@
                     <property name="margin-start">12</property>
                     <property name="margin-end">12</property>
                     <property name="valign">start</property>
-                    <property name="label">bilge_khagan_list_box_south</property>
+                    <property name="wrap">true</property>
+                    <property name="label" translatable="yes">South Direction</property>
                     <style>
                       <class name="title-4"/>
                     </style>
@@ -35,8 +36,9 @@
                 </child>
               </object>
             </child>
+
             <child>
-              <object class="GtkListBoxRow">
+              <object class="GtkListBoxRow" id="old_BK_S1">
                 <property name="visible">true</property>
                 <child>
                   <object class="GtkLabel">
@@ -46,13 +48,16 @@
                     <property name="margin-start">12</property>
                     <property name="margin-end">12</property>
                     <property name="wrap">true</property>
-                    <property name="label">2 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquip ex ea commodi consequatur? quis.</property>
+                    <attributes>
+                      <attribute name="size" value="12000"/>
+                    </attributes>
+                    <property name="label">----: 𐱃𐰉𐰍𐰲: 𐱃𐰞𐰍: 𐰾𐰇𐰾𐰃: 𐰋𐰃𐰼: 𐱅𐰇𐰢𐰤: 𐰺𐱃𐰸𐰃: 𐰘𐱅𐰃: 𐰋𐰃𐰭: 𐰾𐰇𐰏: 𐰃𐰠𐰚𐰃: 𐰚𐰇𐰤: 𐰇𐰠𐰼𐱅𐰢: 𐰖𐰑𐰍: 𐰾𐰇𐰾𐰃𐰤: 𐰚𐰦𐰃: 𐰚𐰇𐰤: 𐰸𐰆𐰯: 𐰇𐰠𐰼𐱅𐰢: 𐰋𐰃----: 𐰚𐰠𐰯: 𐰉𐰺𐰑----:</property>
                   </object>
                 </child>
               </object>
             </child>
             <child>
-              <object class="GtkListBoxRow">
+              <object class="GtkListBoxRow" id="pho_BK_S1">
               <property name="visible">true</property>
                 <child>
                   <object class="GtkLabel">
@@ -62,11 +67,756 @@
                     <property name="margin-start">12</property>
                     <property name="margin-end">12</property>
                     <property name="wrap">true</property>
-                    <property name="label">3 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquip ex ea commodi consequatur? quis.</property>
+                    <property name="label" translatable="yes"></property>
                   </object>
                 </child>
               </object>
             </child>
+            <child>
+              <object class="GtkListBoxRow" id="mod_BK_S1">
+              <property name="visible">true</property>
+                <child>
+                  <object class="GtkLabel">
+                    <property name="selectable">true</property>
+                    <property name="margin-top">12</property>
+                    <property name="margin-bottom">12</property>
+                    <property name="margin-start">12</property>
+                    <property name="margin-end">12</property>
+                    <property name="wrap">true</property>
+                    <property name="label" translatable="yes"></property>
+                  </object>
+                </child>
+              </object>
+            </child>
+
+            <child>
+              <object class="GtkListBoxRow" id="old_BK_S2">
+                <property name="visible">true</property>
+                <child>
+                  <object class="GtkLabel">
+                    <property name="selectable">true</property>
+                    <property name="margin-top">12</property>
+                    <property name="margin-bottom">12</property>
+                    <property name="margin-start">12</property>
+                    <property name="margin-end">12</property>
+                    <property name="wrap">true</property>
+                    <attributes>
+                      <attribute name="size" value="12000"/>
+                    </attributes>
+                    <property name="label">----: 𐰖𐰆𐰞𐰃: 𐰾𐰇𐰠𐰓𐰢: 𐰆𐱃𐰕: 𐰺𐱃𐰸𐰃: 𐰾𐰚𐰕: 𐰖𐱁𐰢𐰀: 𐰶𐰃𐱁𐰣: 𐰶𐰃𐱃𐰪: 𐱃𐰯𐰀: 𐰾𐰇𐰠𐰓𐰢: ----: 𐰆𐱃𐰕: 𐰺𐱃𐰸𐰃: 𐱃𐰆𐰴𐰕: 𐰖𐱁𐰢𐰃: 𐰖𐰕𐰣: 𐱃𐱃𐰉𐰃: 𐱃𐰯𐰀: 𐰾𐰇𐰠𐰓𐰢:</property>
+                  </object>
+                </child>
+              </object>
+            </child>
+            <child>
+              <object class="GtkListBoxRow" id="pho_BK_S2">
+              <property name="visible">true</property>
+                <child>
+                  <object class="GtkLabel">
+                    <property name="selectable">true</property>
+                    <property name="margin-top">12</property>
+                    <property name="margin-bottom">12</property>
+                    <property name="margin-start">12</property>
+                    <property name="margin-end">12</property>
+                    <property name="wrap">true</property>
+                    <property name="label" translatable="yes"></property>
+                  </object>
+                </child>
+              </object>
+            </child>
+            <child>
+              <object class="GtkListBoxRow" id="mod_BK_S2">
+              <property name="visible">true</property>
+                <child>
+                  <object class="GtkLabel">
+                    <property name="selectable">true</property>
+                    <property name="margin-top">12</property>
+                    <property name="margin-bottom">12</property>
+                    <property name="margin-start">12</property>
+                    <property name="margin-end">12</property>
+                    <property name="wrap">true</property>
+                    <property name="label" translatable="yes"></property>
+                  </object>
+                </child>
+              </object>
+            </child>
+
+            <child>
+              <object class="GtkListBoxRow" id="old_BK_S3">
+                <property name="visible">true</property>
+                <child>
+                  <object class="GtkLabel">
+                    <property name="selectable">true</property>
+                    <property name="margin-top">12</property>
+                    <property name="margin-bottom">12</property>
+                    <property name="margin-start">12</property>
+                    <property name="margin-end">12</property>
+                    <property name="wrap">true</property>
+                    <attributes>
+                      <attribute name="size" value="12000"/>
+                    </attributes>
+                    <property name="label">----𐰢𐰤: 𐰇𐰠𐰼𐱅𐰢: 𐰆𐰍𐰞𐰃𐰣: 𐰖𐰆𐱃𐰕𐰃𐰤: 𐰖𐰃𐰞𐰴𐰾𐰃𐰤: 𐰉𐰺𐰢𐰤: ----𐰺𐰀: 𐰸𐰆----:</property>
+                  </object>
+                </child>
+              </object>
+            </child>
+            <child>
+              <object class="GtkListBoxRow" id="pho_BK_S3">
+              <property name="visible">true</property>
+                <child>
+                  <object class="GtkLabel">
+                    <property name="selectable">true</property>
+                    <property name="margin-top">12</property>
+                    <property name="margin-bottom">12</property>
+                    <property name="margin-start">12</property>
+                    <property name="margin-end">12</property>
+                    <property name="wrap">true</property>
+                    <property name="label" translatable="yes"></property>
+                  </object>
+                </child>
+              </object>
+            </child>
+            <child>
+              <object class="GtkListBoxRow" id="mod_BK_S3">
+              <property name="visible">true</property>
+                <child>
+                  <object class="GtkLabel">
+                    <property name="selectable">true</property>
+                    <property name="margin-top">12</property>
+                    <property name="margin-bottom">12</property>
+                    <property name="margin-start">12</property>
+                    <property name="margin-end">12</property>
+                    <property name="wrap">true</property>
+                    <property name="label" translatable="yes"></property>
+                  </object>
+                </child>
+              </object>
+            </child>
+
+            <child>
+              <object class="GtkListBoxRow" id="old_BK_S4">
+                <property name="visible">true</property>
+                <child>
+                  <object class="GtkLabel">
+                    <property name="selectable">true</property>
+                    <property name="margin-top">12</property>
+                    <property name="margin-bottom">12</property>
+                    <property name="margin-start">12</property>
+                    <property name="margin-end">12</property>
+                    <property name="wrap">true</property>
+                    <attributes>
+                      <attribute name="size" value="12000"/>
+                    </attributes>
+                    <property name="label">𐰉𐰆𐰑𐰣: ----: 𐰖𐰆𐱃𐰕𐰃𐰤: 𐰖𐰸: 𐰴𐰃𐰡𐰢: ----:</property>
+                  </object>
+                </child>
+              </object>
+            </child>
+            <child>
+              <object class="GtkListBoxRow" id="pho_BK_S4">
+              <property name="visible">true</property>
+                <child>
+                  <object class="GtkLabel">
+                    <property name="selectable">true</property>
+                    <property name="margin-top">12</property>
+                    <property name="margin-bottom">12</property>
+                    <property name="margin-start">12</property>
+                    <property name="margin-end">12</property>
+                    <property name="wrap">true</property>
+                    <property name="label" translatable="yes"></property>
+                  </object>
+                </child>
+              </object>
+            </child>
+            <child>
+              <object class="GtkListBoxRow" id="mod_BK_S4">
+              <property name="visible">true</property>
+                <child>
+                  <object class="GtkLabel">
+                    <property name="selectable">true</property>
+                    <property name="margin-top">12</property>
+                    <property name="margin-bottom">12</property>
+                    <property name="margin-start">12</property>
+                    <property name="margin-end">12</property>
+                    <property name="wrap">true</property>
+                    <property name="label" translatable="yes"></property>
+                  </object>
+                </child>
+              </object>
+            </child>
+
+            <child>
+              <object class="GtkListBoxRow" id="old_BK_S5">
+                <property name="visible">true</property>
+                <child>
+                  <object class="GtkLabel">
+                    <property name="selectable">true</property>
+                    <property name="margin-top">12</property>
+                    <property name="margin-bottom">12</property>
+                    <property name="margin-start">12</property>
+                    <property name="margin-end">12</property>
+                    <property name="wrap">true</property>
+                    <attributes>
+                      <attribute name="size" value="12000"/>
+                    </attributes>
+                    <property name="label">𐰖𐰆𐰺----:</property>
+                  </object>
+                </child>
+              </object>
+            </child>
+            <child>
+              <object class="GtkListBoxRow" id="pho_BK_S5">
+              <property name="visible">true</property>
+                <child>
+                  <object class="GtkLabel">
+                    <property name="selectable">true</property>
+                    <property name="margin-top">12</property>
+                    <property name="margin-bottom">12</property>
+                    <property name="margin-start">12</property>
+                    <property name="margin-end">12</property>
+                    <property name="wrap">true</property>
+                    <property name="label" translatable="yes"></property>
+                  </object>
+                </child>
+              </object>
+            </child>
+            <child>
+              <object class="GtkListBoxRow" id="mod_BK_S5">
+              <property name="visible">true</property>
+                <child>
+                  <object class="GtkLabel">
+                    <property name="selectable">true</property>
+                    <property name="margin-top">12</property>
+                    <property name="margin-bottom">12</property>
+                    <property name="margin-start">12</property>
+                    <property name="margin-end">12</property>
+                    <property name="wrap">true</property>
+                    <property name="label" translatable="yes"></property>
+                  </object>
+                </child>
+              </object>
+            </child>
+
+            <child>
+              <object class="GtkListBoxRow" id="old_BK_S6">
+                <property name="visible">true</property>
+                <child>
+                  <object class="GtkLabel">
+                    <property name="selectable">true</property>
+                    <property name="margin-top">12</property>
+                    <property name="margin-bottom">12</property>
+                    <property name="margin-start">12</property>
+                    <property name="margin-end">12</property>
+                    <property name="wrap">true</property>
+                    <attributes>
+                      <attribute name="size" value="12000"/>
+                    </attributes>
+                    <property name="label">𐰾𐰇𐰭𐱁𐰓𐰢: ----: ----𐰇𐰲𐰤----:</property>
+                  </object>
+                </child>
+              </object>
+            </child>
+            <child>
+              <object class="GtkListBoxRow" id="pho_BK_S6">
+              <property name="visible">true</property>
+                <child>
+                  <object class="GtkLabel">
+                    <property name="selectable">true</property>
+                    <property name="margin-top">12</property>
+                    <property name="margin-bottom">12</property>
+                    <property name="margin-start">12</property>
+                    <property name="margin-end">12</property>
+                    <property name="wrap">true</property>
+                    <property name="label" translatable="yes"></property>
+                  </object>
+                </child>
+              </object>
+            </child>
+            <child>
+              <object class="GtkListBoxRow" id="mod_BK_S6">
+              <property name="visible">true</property>
+                <child>
+                  <object class="GtkLabel">
+                    <property name="selectable">true</property>
+                    <property name="margin-top">12</property>
+                    <property name="margin-bottom">12</property>
+                    <property name="margin-start">12</property>
+                    <property name="margin-end">12</property>
+                    <property name="wrap">true</property>
+                    <property name="label" translatable="yes"></property>
+                  </object>
+                </child>
+              </object>
+            </child>
+
+            <child>
+              <object class="GtkListBoxRow" id="old_BK_S7">
+                <property name="visible">true</property>
+                <child>
+                  <object class="GtkLabel">
+                    <property name="selectable">true</property>
+                    <property name="margin-top">12</property>
+                    <property name="margin-bottom">12</property>
+                    <property name="margin-start">12</property>
+                    <property name="margin-end">12</property>
+                    <property name="wrap">true</property>
+                    <attributes>
+                      <attribute name="size" value="12000"/>
+                    </attributes>
+                    <property name="label">𐰋𐰼𐱅𐰢: 𐰞𐰯: 𐰼𐰃𐰤: 𐰇𐰠𐰼𐰯: 𐰉𐰞𐰉𐰞: 𐰴𐰃𐰞𐰆: 𐰋𐰼𐱅𐰢: 𐰠𐰏: 𐰖𐱁𐰢𐰀: 𐱃𐱃𐰉𐰃: 𐰉𐰆𐰑𐰣: 𐰶𐰃𐱃𐰪𐰑𐰀: 𐰑𐰺𐰍----: ----𐰴----: 𐱅𐰇𐰭𐰚𐰼: 𐱃𐰍𐰴𐰃:</property>
+                  </object>
+                </child>
+              </object>
+            </child>
+            <child>
+              <object class="GtkListBoxRow" id="pho_BK_S7">
+              <property name="visible">true</property>
+                <child>
+                  <object class="GtkLabel">
+                    <property name="selectable">true</property>
+                    <property name="margin-top">12</property>
+                    <property name="margin-bottom">12</property>
+                    <property name="margin-start">12</property>
+                    <property name="margin-end">12</property>
+                    <property name="wrap">true</property>
+                    <property name="label" translatable="yes"></property>
+                  </object>
+                </child>
+              </object>
+            </child>
+            <child>
+              <object class="GtkListBoxRow" id="mod_BK_S7">
+              <property name="visible">true</property>
+                <child>
+                  <object class="GtkLabel">
+                    <property name="selectable">true</property>
+                    <property name="margin-top">12</property>
+                    <property name="margin-bottom">12</property>
+                    <property name="margin-start">12</property>
+                    <property name="margin-end">12</property>
+                    <property name="wrap">true</property>
+                    <property name="label" translatable="yes"></property>
+                  </object>
+                </child>
+              </object>
+            </child>
+
+            <child>
+              <object class="GtkListBoxRow" id="old_BK_S8">
+                <property name="visible">true</property>
+                <child>
+                  <object class="GtkLabel">
+                    <property name="selectable">true</property>
+                    <property name="margin-top">12</property>
+                    <property name="margin-bottom">12</property>
+                    <property name="margin-start">12</property>
+                    <property name="margin-end">12</property>
+                    <property name="wrap">true</property>
+                    <attributes>
+                      <attribute name="size" value="12000"/>
+                    </attributes>
+                    <property name="label">𐰴𐰆𐰍: 𐰾𐰭𐰇𐰤: 𐰉𐱁𐰑𐰆: 𐱅𐰇𐰼𐱅: 𐱅𐰇𐰢𐰤: 𐰾𐰇: 𐰚𐰠𐱅𐰃: 𐱅𐰇𐰭𐰚𐰼: 𐱃𐰍𐰑𐰀: 𐱅𐰏𐰯: 𐱃𐰆𐰴𐰃𐰑𐰢: 𐰇𐰲: 𐰾𐰇𐰏: 𐰇𐰠𐰼𐱅𐰢: 𐰋𐰃𐰼: 𐱅𐰇𐰢𐰤: ----𐰼𐰾𐰼----: 𐰇𐰚𐱅𐰢: 𐱃𐱃𐰉𐰃: ----:</property>
+                  </object>
+                </child>
+              </object>
+            </child>
+            <child>
+              <object class="GtkListBoxRow" id="pho_BK_S8">
+              <property name="visible">true</property>
+                <child>
+                  <object class="GtkLabel">
+                    <property name="selectable">true</property>
+                    <property name="margin-top">12</property>
+                    <property name="margin-bottom">12</property>
+                    <property name="margin-start">12</property>
+                    <property name="margin-end">12</property>
+                    <property name="wrap">true</property>
+                    <property name="label" translatable="yes"></property>
+                  </object>
+                </child>
+              </object>
+            </child>
+            <child>
+              <object class="GtkListBoxRow" id="mod_BK_S8">
+              <property name="visible">true</property>
+                <child>
+                  <object class="GtkLabel">
+                    <property name="selectable">true</property>
+                    <property name="margin-top">12</property>
+                    <property name="margin-bottom">12</property>
+                    <property name="margin-start">12</property>
+                    <property name="margin-end">12</property>
+                    <property name="wrap">true</property>
+                    <property name="label" translatable="yes"></property>
+                  </object>
+                </child>
+              </object>
+            </child>
+
+            <child>
+              <object class="GtkListBoxRow" id="old_BK_S9">
+                <property name="visible">true</property>
+                <child>
+                  <object class="GtkLabel">
+                    <property name="selectable">true</property>
+                    <property name="margin-top">12</property>
+                    <property name="margin-bottom">12</property>
+                    <property name="margin-start">12</property>
+                    <property name="margin-end">12</property>
+                    <property name="wrap">true</property>
+                    <attributes>
+                      <attribute name="size" value="12000"/>
+                    </attributes>
+                    <property name="label">𐰇𐰠𐰼𐱅𐰃: 𐰆𐰞𐰍: 𐰆𐰍𐰞𐰢: 𐰍𐰺𐰯: 𐰖𐰸: 𐰉𐰆𐰞𐰲𐰀: 𐰸𐰆𐰍: 𐰾𐰭𐰇𐰤𐰏: 𐰉𐰞𐰉𐰞: 𐱅𐰃𐰚𐰀: 𐰋𐰃𐰼𐱅𐰢: 𐰢𐰤: 𐱃𐰆𐰴𐰕: 𐰘𐰏𐰼𐰢𐰃: 𐰘𐰃𐰞: 𐱁𐰑: 𐰆𐰞𐰺𐱃𐰢: 𐱃𐰸𐰆𐰕: 𐰘𐰃𐰏𐰼𐰢𐰃: 𐰘𐰃𐰞: 𐰴𐰍𐰣: 𐰆𐰞𐰺𐱃𐰢: 𐰃𐰠: 𐱃𐰆𐱃𐰑𐰢: 𐰆𐱃𐰕: 𐰺𐱃𐰸𐰃: 𐰋𐰃𐰼----:</property>
+                  </object>
+                </child>
+              </object>
+            </child>
+            <child>
+              <object class="GtkListBoxRow" id="pho_BK_S9">
+              <property name="visible">true</property>
+                <child>
+                  <object class="GtkLabel">
+                    <property name="selectable">true</property>
+                    <property name="margin-top">12</property>
+                    <property name="margin-bottom">12</property>
+                    <property name="margin-start">12</property>
+                    <property name="margin-end">12</property>
+                    <property name="wrap">true</property>
+                    <property name="label" translatable="yes"></property>
+                  </object>
+                </child>
+              </object>
+            </child>
+            <child>
+              <object class="GtkListBoxRow" id="mod_BK_S9">
+              <property name="visible">true</property>
+                <child>
+                  <object class="GtkLabel">
+                    <property name="selectable">true</property>
+                    <property name="margin-top">12</property>
+                    <property name="margin-bottom">12</property>
+                    <property name="margin-start">12</property>
+                    <property name="margin-end">12</property>
+                    <property name="wrap">true</property>
+                    <property name="label" translatable="yes"></property>
+                  </object>
+                </child>
+              </object>
+            </child>
+
+            <child>
+              <object class="GtkListBoxRow" id="old_BK_S10">
+                <property name="visible">true</property>
+                <child>
+                  <object class="GtkLabel">
+                    <property name="selectable">true</property>
+                    <property name="margin-top">12</property>
+                    <property name="margin-bottom">12</property>
+                    <property name="margin-start">12</property>
+                    <property name="margin-end">12</property>
+                    <property name="wrap">true</property>
+                    <attributes>
+                      <attribute name="size" value="12000"/>
+                    </attributes>
+                    <property name="label">𐱅𐰇𐰼𐰰𐰢𐰀: 𐰉𐰆𐰑𐰣𐰢𐰀: 𐰘𐰏𐰤: 𐰨𐰀: 𐰴𐰕𐰍𐰣𐰆: 𐰋𐰃𐰼𐱅𐰢: 𐰉𐰆𐰨𐰀: 𐰴𐰕𐰍𐰣𐰯: 𐰴𐰭𐰢: 𐰴𐰍𐰣: 𐰃𐱃: 𐰘𐰃𐰞: 𐰆𐰣𐰨: 𐰖: 𐰞𐱃𐰃: 𐰆𐱃𐰕𐰴𐰀: 𐰆𐰲𐰀: 𐰉𐰺𐰑𐰃: 𐰞𐰍𐰕𐰃𐰤: 𐰘𐰃𐰞: 𐰋𐰃𐰾𐰨: 𐰖: 𐰘𐰃𐱅𐰃: 𐰆𐱃𐰕𐰴𐰀: 𐰖𐰆𐰍: 𐰼𐱅𐰇𐰼𐱅𐰢: 𐰉𐰆𐰴𐰍: 𐱃𐰆𐱃𐰸: ----:</property>
+                  </object>
+                </child>
+              </object>
+            </child>
+            <child>
+              <object class="GtkListBoxRow" id="pho_BK_S10">
+              <property name="visible">true</property>
+                <child>
+                  <object class="GtkLabel">
+                    <property name="selectable">true</property>
+                    <property name="margin-top">12</property>
+                    <property name="margin-bottom">12</property>
+                    <property name="margin-start">12</property>
+                    <property name="margin-end">12</property>
+                    <property name="wrap">true</property>
+                    <property name="label" translatable="yes"></property>
+                  </object>
+                </child>
+              </object>
+            </child>
+            <child>
+              <object class="GtkListBoxRow" id="mod_BK_S10">
+              <property name="visible">true</property>
+                <child>
+                  <object class="GtkLabel">
+                    <property name="selectable">true</property>
+                    <property name="margin-top">12</property>
+                    <property name="margin-bottom">12</property>
+                    <property name="margin-start">12</property>
+                    <property name="margin-end">12</property>
+                    <property name="wrap">true</property>
+                    <property name="label" translatable="yes"></property>
+                  </object>
+                </child>
+              </object>
+            </child>
+
+            <child>
+              <object class="GtkListBoxRow" id="old_BK_S11">
+                <property name="visible">true</property>
+                <child>
+                  <object class="GtkLabel">
+                    <property name="selectable">true</property>
+                    <property name="margin-top">12</property>
+                    <property name="margin-bottom">12</property>
+                    <property name="margin-start">12</property>
+                    <property name="margin-end">12</property>
+                    <property name="wrap">true</property>
+                    <attributes>
+                      <attribute name="size" value="12000"/>
+                    </attributes>
+                    <property name="label">𐰴𐰭𐰃: 𐰠𐰃𐰾𐰇𐰤: 𐱃𐰖: 𐰾𐰭𐰇𐰤: 𐰉𐱁𐰑𐰆: 𐰋𐰃𐰾: 𐰘𐰇𐰕: 𐰼𐰤: 𐰚𐰠𐱅𐰃: 𐰸𐰆𐰴𐰞𐰴: 𐰇----: 𐰞𐱃𐰆𐰣: 𐰚𐰇𐰢𐰾: 𐰚𐰼𐰏𐰚𐰾𐰕: 𐰚𐰠𐰇𐰼𐱅𐰃: 𐰖𐰆𐰍: 𐰘𐰯𐰺𐰃𐰍: 𐰚𐰠𐰇𐰼𐰯: 𐱅𐰃𐰚𐰀: 𐰋𐰃𐰼𐱅𐰃: 𐰲𐰃𐰦𐰣: 𐰃𐰍𐰲: 𐰚𐰠𐰇𐰼𐰯: 𐰇𐰕: 𐰖𐰺𐱁----:</property>
+                  </object>
+                </child>
+              </object>
+            </child>
+            <child>
+              <object class="GtkListBoxRow" id="pho_BK_S11">
+              <property name="visible">true</property>
+                <child>
+                  <object class="GtkLabel">
+                    <property name="selectable">true</property>
+                    <property name="margin-top">12</property>
+                    <property name="margin-bottom">12</property>
+                    <property name="margin-start">12</property>
+                    <property name="margin-end">12</property>
+                    <property name="wrap">true</property>
+                    <property name="label" translatable="yes"></property>
+                  </object>
+                </child>
+              </object>
+            </child>
+            <child>
+              <object class="GtkListBoxRow" id="mod_BK_S11">
+              <property name="visible">true</property>
+                <child>
+                  <object class="GtkLabel">
+                    <property name="selectable">true</property>
+                    <property name="margin-top">12</property>
+                    <property name="margin-bottom">12</property>
+                    <property name="margin-start">12</property>
+                    <property name="margin-end">12</property>
+                    <property name="wrap">true</property>
+                    <property name="label" translatable="yes"></property>
+                  </object>
+                </child>
+              </object>
+            </child>
+
+            <child>
+              <object class="GtkListBoxRow" id="old_BK_S12">
+                <property name="visible">true</property>
+                <child>
+                  <object class="GtkLabel">
+                    <property name="selectable">true</property>
+                    <property name="margin-top">12</property>
+                    <property name="margin-bottom">12</property>
+                    <property name="margin-start">12</property>
+                    <property name="margin-end">12</property>
+                    <property name="wrap">true</property>
+                    <attributes>
+                      <attribute name="size" value="12000"/>
+                    </attributes>
+                    <property name="label">𐰉𐰆𐰨𐰀: 𐰉𐰆𐰑𐰣: 𐰽𐰲𐰃𐰤: 𐰸𐰆𐰞𐰴𐰴𐰃𐰤: 𐰖----: 𐰉𐰃𐰲𐰑𐰃: 𐰓𐰏𐰇: 𐰇𐰕𐰠𐰚: 𐱃𐰃𐰤: 𐰴𐰺𐰀: 𐰚𐰃𐰾𐰃𐰤: 𐰚𐰇𐰚: 𐱅𐰘𐰭𐰃𐰤: 𐰽𐰣𐰽𐰕: 𐰚𐰠𐰇𐰼𐰯: 𐰸𐰆𐰯: 𐰸𐰆𐱃𐰃:</property>
+                  </object>
+                </child>
+              </object>
+            </child>
+            <child>
+              <object class="GtkListBoxRow" id="pho_BK_S12">
+              <property name="visible">true</property>
+                <child>
+                  <object class="GtkLabel">
+                    <property name="selectable">true</property>
+                    <property name="margin-top">12</property>
+                    <property name="margin-bottom">12</property>
+                    <property name="margin-start">12</property>
+                    <property name="margin-end">12</property>
+                    <property name="wrap">true</property>
+                    <property name="label" translatable="yes"></property>
+                  </object>
+                </child>
+              </object>
+            </child>
+            <child>
+              <object class="GtkListBoxRow" id="mod_BK_S12">
+              <property name="visible">true</property>
+                <child>
+                  <object class="GtkLabel">
+                    <property name="selectable">true</property>
+                    <property name="margin-top">12</property>
+                    <property name="margin-bottom">12</property>
+                    <property name="margin-start">12</property>
+                    <property name="margin-end">12</property>
+                    <property name="wrap">true</property>
+                    <property name="label" translatable="yes"></property>
+                  </object>
+                </child>
+              </object>
+            </child>
+
+            <child>
+              <object class="GtkListBoxRow" id="old_BK_S13">
+                <property name="visible">true</property>
+                <child>
+                  <object class="GtkLabel">
+                    <property name="selectable">true</property>
+                    <property name="margin-top">12</property>
+                    <property name="margin-bottom">12</property>
+                    <property name="margin-start">12</property>
+                    <property name="margin-end">12</property>
+                    <property name="wrap">true</property>
+                    <attributes>
+                      <attribute name="size" value="12000"/>
+                    </attributes>
+                    <property name="label">𐱅𐰭𐰼𐰃: 𐱅𐰏: 𐱅𐰏𐰼𐰃: 𐰖𐰺𐱃𐰢𐱁: 𐱅𐰇𐰼𐰰: 𐰋𐰃𐰠𐰏𐰀: 𐰴𐰍𐰣: 𐰽𐰉𐰢: 𐰴𐰭𐰢: 𐱅𐰇𐰼𐰰: 𐰋𐰃𐰠𐰏𐰀: 𐰴𐰍𐰣: 𐰆𐰞𐰺𐱃𐰸𐰃𐰦𐰀: 𐱅𐰇𐰼𐰰: 𐰢𐱃𐰃: 𐰋𐰏𐰠𐰼: 𐰚𐰃𐰾𐰼𐰀: 𐱃𐰺𐰑𐰆𐱁: 𐰋𐰏𐰠𐰼: 𐰚𐰇𐰠: 𐰲𐰆𐰺: 𐰉𐱁𐰞𐰖𐰆: 𐰆𐰞𐰖𐰆: 𐱁𐰑𐰯𐰃𐱃: 𐰋𐰏𐰠𐰼: 𐰇𐰭𐰼𐰀: 𐱅𐰇𐰠𐰾: 𐰋𐰏𐰠𐰼: 𐰯𐰀: 𐱃𐰺𐰴𐰣:</property>
+                  </object>
+                </child>
+              </object>
+            </child>
+            <child>
+              <object class="GtkListBoxRow" id="pho_BK_S13">
+              <property name="visible">true</property>
+                <child>
+                  <object class="GtkLabel">
+                    <property name="selectable">true</property>
+                    <property name="margin-top">12</property>
+                    <property name="margin-bottom">12</property>
+                    <property name="margin-start">12</property>
+                    <property name="margin-end">12</property>
+                    <property name="wrap">true</property>
+                    <property name="label" translatable="yes"></property>
+                  </object>
+                </child>
+              </object>
+            </child>
+            <child>
+              <object class="GtkListBoxRow" id="mod_BK_S13">
+              <property name="visible">true</property>
+                <child>
+                  <object class="GtkLabel">
+                    <property name="selectable">true</property>
+                    <property name="margin-top">12</property>
+                    <property name="margin-bottom">12</property>
+                    <property name="margin-start">12</property>
+                    <property name="margin-end">12</property>
+                    <property name="wrap">true</property>
+                    <property name="label" translatable="yes"></property>
+                  </object>
+                </child>
+              </object>
+            </child>
+
+            <child>
+              <object class="GtkListBoxRow" id="old_BK_S14">
+                <property name="visible">true</property>
+                <child>
+                  <object class="GtkLabel">
+                    <property name="selectable">true</property>
+                    <property name="margin-top">12</property>
+                    <property name="margin-bottom">12</property>
+                    <property name="margin-start">12</property>
+                    <property name="margin-end">12</property>
+                    <property name="wrap">true</property>
+                    <attributes>
+                      <attribute name="size" value="12000"/>
+                    </attributes>
+                    <property name="label">𐰉𐱁𐰞𐰖𐰆: 𐰆𐰞𐰖𐰆: 𐱁𐰑𐰯𐰃𐱃: 𐰋𐰏𐰠𐰼: 𐰉𐰆----: 𐱃𐰢𐰣: 𐱃𐰺𐰴𐰣: 𐱃𐰆𐰣𐰖𐰸𐰸: 𐰉𐰆𐰖𐰞𐰀: 𐰉𐰍𐰀: 𐱃𐰺𐰴𐰣: 𐰆𐰞𐰖𐰆: 𐰉𐰆𐰖𐰺𐰸: ----𐰃𐰲: 𐰉𐰆𐰖𐰺𐰸𐰃: 𐰾𐰋𐰏: 𐰚𐰇𐰠: 𐰃𐰼𐰚𐰤: 𐰉𐱁𐰞𐰖𐰆: 𐰆𐰞𐰖𐰆: 𐰉𐰆𐰖𐰺𐰸: 𐰉𐰆𐰨𐰀: 𐰢𐱃𐰃: 𐰋𐰏𐰠𐰼: 𐰴𐰭𐰢: 𐰴𐰍𐰣𐰴𐰀: 𐰼𐱅𐰭𐰇:</property>
+                  </object>
+                </child>
+              </object>
+            </child>
+            <child>
+              <object class="GtkListBoxRow" id="pho_BK_S14">
+              <property name="visible">true</property>
+                <child>
+                  <object class="GtkLabel">
+                    <property name="selectable">true</property>
+                    <property name="margin-top">12</property>
+                    <property name="margin-bottom">12</property>
+                    <property name="margin-start">12</property>
+                    <property name="margin-end">12</property>
+                    <property name="wrap">true</property>
+                    <property name="label" translatable="yes"></property>
+                  </object>
+                </child>
+              </object>
+            </child>
+            <child>
+              <object class="GtkListBoxRow" id="mod_BK_S14">
+              <property name="visible">true</property>
+                <child>
+                  <object class="GtkLabel">
+                    <property name="selectable">true</property>
+                    <property name="margin-top">12</property>
+                    <property name="margin-bottom">12</property>
+                    <property name="margin-start">12</property>
+                    <property name="margin-end">12</property>
+                    <property name="wrap">true</property>
+                    <property name="label" translatable="yes"></property>
+                  </object>
+                </child>
+              </object>
+            </child>
+
+            <child>
+              <object class="GtkListBoxRow" id="old_BK_S15">
+                <property name="visible">true</property>
+                <child>
+                  <object class="GtkLabel">
+                    <property name="selectable">true</property>
+                    <property name="margin-top">12</property>
+                    <property name="margin-bottom">12</property>
+                    <property name="margin-start">12</property>
+                    <property name="margin-end">12</property>
+                    <property name="wrap">true</property>
+                    <attributes>
+                      <attribute name="size" value="12000"/>
+                    </attributes>
+                    <property name="label">𐰼𐱅𐰭𐰇: 𐱅𐰃: 𐰢𐰍: 𐰃𐱅𐰓𐰃: 𐱅𐰇𐰼𐰰: 𐰋𐰏𐰠𐰼𐰃𐰤: 𐰉𐰆𐰑𐰣𐰃𐰤: 𐰼𐱅𐰭𐰇: 𐱅𐰃: 𐰢𐰍: 𐰃𐱅𐰓𐰃: 𐰇𐰏𐰓𐰃: ----: 𐰴𐰭𐰢: 𐰴𐰍𐰣: ----𐰲𐰀: 𐰍𐰃𐰺: 𐱃𐱁𐰃𐰍: 𐰖𐰆𐰍𐰣𐰢𐱁: 𐱅𐰇𐰼𐰰: 𐰋𐰍𐰞𐰼: 𐰉𐰆𐰑𐰣: 𐰃----𐰃𐰼𐱅𐰃: 𐰇𐰕𐰢𐰀: 𐰉𐰆𐰣𐰲𐰀: ----:</property>
+                  </object>
+                </child>
+              </object>
+            </child>
+            <child>
+              <object class="GtkListBoxRow" id="pho_BK_S15">
+              <property name="visible">true</property>
+                <child>
+                  <object class="GtkLabel">
+                    <property name="selectable">true</property>
+                    <property name="margin-top">12</property>
+                    <property name="margin-bottom">12</property>
+                    <property name="margin-start">12</property>
+                    <property name="margin-end">12</property>
+                    <property name="wrap">true</property>
+                    <property name="label" translatable="yes"></property>
+                  </object>
+                </child>
+              </object>
+            </child>
+            <child>
+              <object class="GtkListBoxRow" id="mod_BK_S15">
+              <property name="visible">true</property>
+                <child>
+                  <object class="GtkLabel">
+                    <property name="selectable">true</property>
+                    <property name="margin-top">12</property>
+                    <property name="margin-bottom">12</property>
+                    <property name="margin-start">12</property>
+                    <property name="margin-end">12</property>
+                    <property name="wrap">true</property>
+                    <property name="label" translatable="yes"></property>
+                  </object>
+                </child>
+              </object>
+            </child>
+
           </object>
         </child>
       </object>

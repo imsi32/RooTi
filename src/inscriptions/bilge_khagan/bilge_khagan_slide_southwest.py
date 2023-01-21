@@ -25,5 +25,11 @@ from gi.repository import Gtk
 class BilgeKhaganSlideSouthwest(Adw.Bin):
     __gtype_name__ = 'BilgeKhaganSlideSouthwest'
 
+    old_BK_SW1 = Gtk.Template.Child("old_BK_SW1")
+
+    pho_BK_SW1 = Gtk.Template.Child("pho_BK_SW1")
+
+    mod_BK_SW1 = Gtk.Template.Child("mod_BK_SW1")
+
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
