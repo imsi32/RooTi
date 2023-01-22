@@ -25,5 +25,11 @@ from gi.repository import Gtk
 class KoltiginSlideWest(Adw.Bin):
     __gtype_name__ = 'KoltiginSlideWest'
 
+    old_K_W1 = Gtk.Template.Child("old_K_W1")
+
+    pho_K_W1 = Gtk.Template.Child("pho_K_W1")
+
+    mod_K_W1 = Gtk.Template.Child("mod_K_W1")
+
     def __init__(self, **kwargs):
         super().__init__(**kwargs)

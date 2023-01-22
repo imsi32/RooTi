@@ -18,7 +18,7 @@
               <class name="boxed-list"/>
             </style>
             <child>
-              <object class="GtkListBoxRow">
+              <object class="GtkListBoxRow" id="K_W">
                 <property name="visible">true</property>
                 <child>
                   <object class="GtkLabel">
@@ -27,7 +27,8 @@
                     <property name="margin-start">12</property>
                     <property name="margin-end">12</property>
                     <property name="valign">start</property>
-                    <property name="label">koltigin_list_box_west</property>
+                    <property name="wrap">true</property>
+                    <property name="label" translatable="yes">West Direction</property>
                     <style>
                       <class name="title-4"/>
                     </style>
@@ -35,8 +36,9 @@
                 </child>
               </object>
             </child>
+
             <child>
-              <object class="GtkListBoxRow">
+              <object class="GtkListBoxRow" id="old_K_W1">
                 <property name="visible">true</property>
                 <child>
                   <object class="GtkLabel">
@@ -46,13 +48,16 @@
                     <property name="margin-start">12</property>
                     <property name="margin-end">12</property>
                     <property name="wrap">true</property>
-                    <property name="label">2 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquip ex ea commodi consequatur? quis.</property>
+                    <attributes>
+                      <attribute name="size" value="12000"/>
+                    </attributes>
+                    <property name="label">𐰸𐰆𐰺𐰑𐰣𐰍----𐰃𐰤𐰢: 𐰰𐰇𐰠𐱅𐰃𐰏𐰤: 𐰇𐰠𐱅𐰃----: 𐰃𐰾𐰏: 𐰰𐰇𐰲𐰏: 𐰋𐰃𐰼𐱅𐰰: 𐰇𐰲𐰤: 𐱅𐰇𐰼𐰰: 𐰋𐰃𐰠𐰏𐰀: 𐰴𐰍𐰣: 𐰖𐰸𐰃𐰴𐰀: 𐰃𐰤𐰢: 𐰰𐰇𐰠𐱅𐰃𐰏𐰤𐰏: 𐰰𐰇𐰕𐰓𐰇: 𐰆𐰞𐰺𐱃----: 𐰃𐰤𐰨𐰆: 𐰯𐰀: 𐰖𐰺𐰍𐰣: 𐱃𐰺𐰴𐰣: 𐰀𐱃𐰍: 𐰋𐰃𐰼𐰓𐰢: 𐰣𐰃: 𐰇𐰏𐱅𐰼𐱅𐰓𐰢:</property>
                   </object>
                 </child>
               </object>
             </child>
             <child>
-              <object class="GtkListBoxRow">
+              <object class="GtkListBoxRow" id="pho_K_W1">
               <property name="visible">true</property>
                 <child>
                   <object class="GtkLabel">
@@ -62,11 +67,28 @@
                     <property name="margin-start">12</property>
                     <property name="margin-end">12</property>
                     <property name="wrap">true</property>
-                    <property name="label">3 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquip ex ea commodi consequatur? quis.</property>
+                    <property name="label" translatable="yes"></property>
                   </object>
                 </child>
               </object>
             </child>
+            <child>
+              <object class="GtkListBoxRow" id="mod_K_W1">
+              <property name="visible">true</property>
+                <child>
+                  <object class="GtkLabel">
+                    <property name="selectable">true</property>
+                    <property name="margin-top">12</property>
+                    <property name="margin-bottom">12</property>
+                    <property name="margin-start">12</property>
+                    <property name="margin-end">12</property>
+                    <property name="wrap">true</property>
+                    <property name="label" translatable="yes"></property>
+                  </object>
+                </child>
+              </object>
+            </child>
+
           </object>
         </child>
       </object>
