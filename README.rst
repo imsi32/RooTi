@@ -4,7 +4,7 @@ RooTi
 =====
 
 :Authors: imsi32
-:Version: 0.1.11
+:Version: 0.0.12
 :Licence: GPL-3.0
 
 ------
