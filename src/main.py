@@ -54,7 +54,7 @@ class RootiApplication(Adw.Application):
                                 application_name='rooti',
                                 application_icon='com.github.imsi32.RooTi',
                                 developer_name='imsi32',
-                                version='0.1.12',
+                                version='0.0.13',
                                 developers=['imsi32'],
                                 documenters=['Türk Bitig https://www.turkbitig.com/p/orhunyazitlari.html', 'imsi32'],
                                 copyright='© 2022-2023 imsi32',
