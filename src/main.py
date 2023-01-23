@@ -56,7 +56,9 @@ class RootiApplication(Adw.Application):
                                 developer_name='imsi32',
                                 version='0.1.12',
                                 developers=['imsi32'],
-                                copyright='© 2022 imsi32')
+                                documenters=['Türk Bitig https://www.turkbitig.com/p/orhunyazitlari.html', 'imsi32'],
+                                copyright='© 2022 imsi32',
+                                license_type="GTK_LICENSE_GPL_3_0")
         about.present()
 
     def on_preferences_action(self, widget, _):
