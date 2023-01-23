@@ -1,6 +1,6 @@
 # tonyukuk_slide_first_stone_west.py
 #
-# Copyright 2022 imsi32
+# Copyright 2022-2023-2023 imsi32
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
