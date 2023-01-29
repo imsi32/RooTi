@@ -63,7 +63,7 @@
                   </object>
                 </child>
                 <child>
-                  <object class="AdwViewStackPage" id="kul_tigin_inscription">
+                  <object class="AdwViewStackPage" id="koltigin_inscription">
                     <property name="name">koltigin</property>
                     <property name="title" translatable="true">Koltigin</property>
                     <property name="child">
