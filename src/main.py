@@ -33,9 +33,22 @@ class RootiApplication(Adw.Application):
     def __init__(self):
         super().__init__(application_id='com.github.imsi32.RooTi',
                          flags=Gio.ApplicationFlags.FLAGS_NONE)
-        self.create_action('quit', self.quit, ['<primary>q'])
-        self.create_action('about', self.on_about_action)
+        self.create_action('quit', self.close, ['<primary>q'])
+        self.create_action('about', self.on_about_action, ['<Ctrl>a'])
         self.create_action('preferences', self.on_preferences_action)
+
+        self.set_accels_for_action('win.next', ['l','<Ctrl>l','<Ctrl>Right'])
+        self.set_accels_for_action('win.previous', ['h','<Ctrl>h','<Ctrl>Left'])
+        self.set_accels_for_action('win.up', ['k','<Ctrl>k','<Ctrl>Up'])
+        self.set_accels_for_action('win.down', ['j','<Ctrl>j','<Ctrl>Down'])
+
+        self.set_accels_for_action('win.open_bilge_khagan', ['b','<Ctrl>b'])
+        self.set_accels_for_action('win.open_koltigin', ['n','<Ctrl>n'])
+        self.set_accels_for_action('win.open_tonyukuk', ['m','<Ctrl>m'])
+
+        self.set_accels_for_action('win.old', ['u','<Ctrl>u'])
+        self.set_accels_for_action('win.phonologic', ['i','<Ctrl>i'])
+        self.set_accels_for_action('win.modern', ['o','<Ctrl>o'])
 
     def do_activate(self):
         """Called when the application is activated.
@@ -79,6 +92,10 @@ class RootiApplication(Adw.Application):
         self.add_action(action)
         if shortcuts:
             self.set_accels_for_action(f"app.{name}", shortcuts)
+
+    def close(self, *args):
+        """Quit the application"""
+        self.quit()
 
 
 def main(version):
