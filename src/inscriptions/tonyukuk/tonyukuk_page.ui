@@ -6,7 +6,7 @@
     <property name="orientation">vertical</property>
     <child>
       <object class="AdwCarousel" id="tonyukuk_carousel">
-        <property name="allow_long_swipes">true</property>
+        <property name="allow-scroll-wheel">false</property>
         <child>
           <object class="TonyukukSlideFirstStoneWest" id="tonyukuk_slide_first_stone_west"></object>
         </child>

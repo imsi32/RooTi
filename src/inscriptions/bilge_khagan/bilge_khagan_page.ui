@@ -6,7 +6,7 @@
     <property name="orientation">vertical</property>
     <child>
       <object class="AdwCarousel" id="bilge_khagan_carousel">
-        <property name="allow_long_swipes">true</property>
+        <property name="allow-scroll-wheel">false</property>
         <child>
           <object class="BilgeKhaganSlideEast" id="bilge_khagan_slide_east"></object>
         </child>
