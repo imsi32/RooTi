@@ -33,6 +33,8 @@ from .koltigin_slide_west import KoltiginSlideWest
 class PageKoltigin(Gtk.Box):
     __gtype_name__ = 'PageKoltigin'
 
+    koltigin_carousel = Gtk.Template.Child("koltigin_carousel")
+
     koltigin_slide_south = Gtk.Template.Child("koltigin_slide_south")
     koltigin_slide_east = Gtk.Template.Child("koltigin_slide_east")
     koltigin_slide_north = Gtk.Template.Child("koltigin_slide_north")

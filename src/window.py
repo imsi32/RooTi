@@ -19,6 +19,7 @@
 
 from gi.repository import Adw
 from gi.repository import Gtk
+from gi.repository import Gio
 
 from .inscriptions.bilge_khagan.bilge_khagan_page import PageBilgeKhagan
 from .inscriptions.koltigin.koltigin_page import PageKoltigin
@@ -33,13 +34,56 @@ class RootiWindow(Adw.ApplicationWindow):
     tb_phonologic = Gtk.Template.Child("tb_phonologic")
     tb_modern = Gtk.Template.Child("tb_modern")
 
+    scrolled_window = Gtk.Template.Child("scrolled_window")
+
+    inscriptions_stack = Gtk.Template.Child("inscriptions_stack")
+
     bilge_khagan_page = Gtk.Template.Child("bilge_khagan_page")
     koltigin_page = Gtk.Template.Child("koltigin_page")
     tonyukuk_page = Gtk.Template.Child("tonyukuk_page")
 
-
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
+
+        next_action = Gio.SimpleAction(name="next")
+        next_action.connect("activate", self.next)
+        self.add_action(next_action)
+
+        previous_action = Gio.SimpleAction(name="previous")
+        previous_action.connect("activate", self.previous)
+        self.add_action(previous_action)
+
+        up_action = Gio.SimpleAction(name="up")
+        up_action.connect("activate", self.up)
+        self.add_action(up_action)
+
+        down_action = Gio.SimpleAction(name="down")
+        down_action.connect("activate", self.down)
+        self.add_action(down_action)
+
+        open_bilge_khagan_action = Gio.SimpleAction(name="open_bilge_khagan")
+        open_bilge_khagan_action.connect("activate", self.open_bilge_khagan)
+        self.add_action(open_bilge_khagan_action)
+
+        open_koltigin_action = Gio.SimpleAction(name="open_koltigin")
+        open_koltigin_action.connect("activate", self.open_koltigin)
+        self.add_action(open_koltigin_action)
+
+        open_tonyukuk_action = Gio.SimpleAction(name="open_tonyukuk")
+        open_tonyukuk_action.connect("activate", self.open_tonyukuk)
+        self.add_action(open_tonyukuk_action)
+
+        old_action= Gio.SimpleAction(name="old")
+        old_action.connect("activate", self.toggle_old)
+        self.add_action(old_action)
+
+        phonologic_action= Gio.SimpleAction(name="phonologic")
+        phonologic_action.connect("activate", self.toggle_phonologic)
+        self.add_action(phonologic_action)
+
+        modern_action= Gio.SimpleAction(name="modern")
+        modern_action.connect("activate", self.toggle_modern)
+        self.add_action(modern_action)
 
         self.tb_old.connect("toggled", self.visible_old)
         self.tb_phonologic.connect("toggled", self.visible_phonologic)
@@ -698,25 +742,83 @@ class RootiWindow(Adw.ApplicationWindow):
                         ]
 
         self.tb_old.set_active(True)
-        for openclose in (1, 0):
+        for openclose in (True, False):
             self.tb_phonologic.set_active(openclose)
             self.tb_modern.set_active(openclose)
 
+    def toggle_old(self, *args):
+        """This simple method toggle on-off tb_old for GioSimpleAction which connects tb_old with shortcuts."""
+        self.tb_old.set_active(not(self.tb_old.get_active()))
 
-    def visible_old(self, button):
+    def toggle_phonologic(self, *args):
+        """This simple method toggle on-off tb_phonologic for GioSimpleAction which connects tb_phonologic with shortcuts."""
+        self.tb_phonologic.set_active(not(self.tb_phonologic.get_active()))
+
+    def toggle_modern(self, *args):
+        """This simple method toggle on-off tb_modern for GioSimpleAction which connects tb_modern with shortcuts."""
+        self.tb_modern.set_active(not(self.tb_modern.get_active()))
+
+    def visible_old(self, *args):
         """Sets old widgets visibility to the given button state."""
-        check = button.get_active()
         for row_old in self.rows_old:
-            row_old.set_visible(check)
+            row_old.set_visible(self.tb_old.get_active())
 
-    def visible_phonologic(self, button):
+    def visible_phonologic(self, *args):
         """Sets phonologic widgets visibility to the given button state."""
-        check = button.get_active()
         for row_pho in self.rows_pho:
-            row_pho.set_visible(check)
+            row_pho.set_visible(self.tb_phonologic.get_active())
 
     def visible_modern(self, button):
         """Sets modern widgets visibility to the given button state."""
-        check = button.get_active()
         for row_mod in self.rows_mod:
-            row_mod.set_visible(check)
+            row_mod.set_visible(self.tb_modern.get_active())
+
+    def next(self, *args):
+        """Goes next carousel page of active inscription stack's carousel."""
+        if self.inscriptions_stack.get_visible_child_name() == "bilge_khagan":
+            carousel = self.bilge_khagan_page.bilge_khagan_carousel
+        elif self.inscriptions_stack.get_visible_child_name() == "koltigin":
+            carousel = self.koltigin_page.koltigin_carousel
+        else:
+            carousel = self.tonyukuk_page.tonyukuk_carousel
+
+        carousel_index = carousel.get_position()
+        page = carousel.get_nth_page(carousel_index + 1)
+        carousel.scroll_to(page, True)
+
+    def previous(self, *args):
+        """Goes previous carousel page of active inscription stack's carousel."""
+        if self.inscriptions_stack.get_visible_child_name() == "bilge_khagan":
+            carousel = self.bilge_khagan_page.bilge_khagan_carousel
+        elif self.inscriptions_stack.get_visible_child_name() == "koltigin":
+            carousel = self.koltigin_page.koltigin_carousel
+        else:
+            carousel = self.tonyukuk_page.tonyukuk_carousel
+
+        carousel_index = carousel.get_position()
+        page = carousel.get_nth_page(carousel_index - 1)
+        carousel.scroll_to(page, True)
+
+    def up(self, *args):
+        """Scroll the scrolled_window to up."""
+        sw_vadj = self.scrolled_window.get_vadjustment()
+        sw_vadj.set_value(sw_vadj.get_value() - 10)
+        self.scrolled_window.set_vadjustment(sw_vadj)
+
+    def down(self, *args):
+        """Scroll the scrolled_window to down."""
+        sw_vadj = self.scrolled_window.get_vadjustment()
+        sw_vadj.set_value(sw_vadj.get_value() + 10)
+        self.scrolled_window.set_vadjustment(sw_vadj)
+
+    def open_bilge_khagan(self, *args):
+        """Open Bilge Khagan's inscription page"""
+        self.inscriptions_stack.set_visible_child_name("bilge_khagan")
+
+    def open_koltigin(self, *args):
+        """Open Koltigin's inscription page"""
+        self.inscriptions_stack.set_visible_child_name("koltigin")
+
+    def open_tonyukuk(self, *args):
+        """Open Tonyukuk's inscription page"""
+        self.inscriptions_stack.set_visible_child_name("tonyukuk")
