@@ -3,7 +3,27 @@
 	<id>com.github.imsi32.RooTi.desktop</id>
 	<metadata_license>CC0-1.0</metadata_license>
 	<project_license>GPL-3.0-or-later</project_license>
+	<developer_name>imsi32</developer_name>
+	<url type="bugtracker">https://github.com/imsi32/RooTi/issues</url>
+	<url type="vcs-browser">https://github.com/imsi32/RooTi</url>
+	<launchable type="desktop-id">com.github.imsi32.RooTi.desktop</launchable>
+	<name>Reader Of Old Turkic Inscriptions</name>
+	<summary>A simple way to read old Turkic inscriptions</summary>
+	<categories>
+		<category>Education</category>
+		<category>Languages</category>
+		<category>History</category>
+		<category>Literature</category>
+		<category>Viewer</category>
+	</categories>
+	<!--TODO add content_rating and screenshots-->
 	<description>
-	  <p>No description</p>
+		<p>Like the name suggest, reader of old Turkic inscriptions allow you to read, understand and learn the old Turkic inscriptions.</p>
+		<p>Currently, 3 old Turkic inscriptions are in this application. These are:</p>
+		<ul>
+			<li>Bilge Khagan</li>
+			<li>Koltigin</li>
+			<li>Tonyukuk</li>
+		</ul>
 	</description>
 </component>
