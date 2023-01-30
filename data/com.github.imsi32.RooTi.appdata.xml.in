@@ -26,4 +26,21 @@
       <li>Tonyukuk</li>
     </ul>
   </description>
+  <releases>
+    <release version="0.1.0" type="development" date="2023-01-30">
+      <description>
+        <p>This version is the first minor version of the Reader Of Old Turkic Inscriptions.</p>
+        <p>In this version:</p>
+          <ul>
+            <li>User Interface Implemented</li>
+            <li>Old Scripts Added</li>
+            <li>Functionality of Buttons and Shortcuts Implemented</li>
+            <li>Metadata Implemented</li>
+            <li>Documentation Basic Template Implemented</li>
+            <li>Small Bug Fixes</li>
+          </ul>
+      </description>
+      <!--TODO add url <-->
+    </release>
+  </releases>
 </component>

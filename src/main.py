@@ -67,7 +67,17 @@ class RootiApplication(Adw.Application):
                                 application_name='rooti',
                                 application_icon='com.github.imsi32.RooTi',
                                 developer_name='imsi32',
-                                version='0.0.15',
+                                version='0.1.0',
+                                release_notes='<p>This version is the first minor version of the Reader Of Old Turkic Inscriptions.</p>'+
+                                              '<p>In this version:</p><ul>'+
+                                              '<li>User Interface Implemented</li>' +
+                                              '<li>Old Scripts Added</li>'+
+                                              '<li>Functionality of Buttons and Shortcuts Implemented</li>'+
+                                              '<li>Metadata Implemented</li>'+
+                                              '<li>Documentation Basic Template Implemented</li>'+
+                                              '<li>Small Bug Fixes</li></ul>',
+                                release_notes_version='0.1.0',
+                                issue_url='https://github.com/imsi32/RooTi/issues',
                                 developers=['imsi32'],
                                 documenters=['Türk Bitig https://www.turkbitig.com/p/orhunyazitlari.html', 'imsi32'],
                                 copyright='© 2022-2023 imsi32',
