@@ -40,7 +40,7 @@
             <li>Small Bug Fixes</li>
           </ul>
       </description>
-      <!--TODO add url <-->
+      <url>https://github.com/imsi32/RooTi/releases/tag/v0.1.0</url>
     </release>
   </releases>
 </component>
